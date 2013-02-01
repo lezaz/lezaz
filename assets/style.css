@@ -186,7 +186,7 @@ li.repo h3 {
 }
 
 .repo.javascript:after {
-  border-right-color: #333;
+  border-right-color: #452632;
 }
 
 .repo.scala:after {
@@ -205,7 +205,7 @@ li.repo h3 {
   border-right-color: #6aad2d;
 }
 .repo.php:after{
-  border-right-color: #ff9900;
+  border-right-color: #91204D;
 }
 
 @keyframes small-swing { 0% { margin-top: 0px } 50% { margin-top: -10px } 100% { margin-top: 0px } }
