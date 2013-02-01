@@ -19,11 +19,11 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 20px;
-  color: #0084b4;
+  color: #aa0000;
 }
 
-a:link, a:visited {
-  color: #0084b4;
+a, a:link, a:visited {
+  color: #cc0000;
   text-decoration: none;
 }
 
@@ -203,6 +203,9 @@ li.repo h3 {
 
 .repo.python:after {
   border-right-color: #6aad2d;
+}
+.repo.php:after{
+  border-right-color: #ff9900;
 }
 
 @keyframes small-swing { 0% { margin-top: 0px } 50% { margin-top: -10px } 100% { margin-top: 0px } }
