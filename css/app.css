@@ -36,3 +36,24 @@ ul.off-canvas-list li a:hover {
 .small {
 	font-size: 85%;
 }
+
+div.highlight {
+	border-radius: 5px;
+	background: #272822;
+	padding: 1rem;
+	color: #fff;
+	overflow-x: scroll;
+}
+
+div.highlight code {
+	color: #f2f2f2;
+}
+
+div.highlight .cp {	color: #ffffff; }
+div.highlight .sd {	color: #666; }
+div.highlight .c1 {	color: #666; }
+div.highlight .k  {	color: #66d9ef; }
+div.highlight .nf { color: #a6e22e; }
+div.highlight .x  { color: #e6db74; }
+div.highlight .s1 { color: #e6db74; }
+div.highlight .mi { color: #f92672; }

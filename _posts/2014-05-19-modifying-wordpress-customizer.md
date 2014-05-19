@@ -12,7 +12,26 @@ Thankfully, WordPress has a lot of actions and hooks you can use to change the w
 Today we'll see how how can easily add some custom CSS to the head of the Customizer page that will allow you to change the way it looks and make it yours.
 
 The easiest way to do this (but not the best way), is to add some inline styles using the `customize_controls_print_styles` WordPress action:
-<script src="https://gist.github.com/aristath/cd77d5a18ef45b3f5183.js"></script>
+
+```php
+<?php
+ 
+/**
+ * This function adds some styles to the WordPress Customizer
+ */
+function my_customizer_styles() { ?>
+	<style>
+		#customize-theme-controls .accordion-section-title {
+			background: #333;
+		}
+	</style>
+	<?php
+ 
+}
+add_action( 'customize_controls_print_styles', 'my_customizer_styles', 999 );
+
+?>
+```
 
 That is a pretty simple snippet:
 
@@ -22,8 +41,23 @@ That is a pretty simple snippet:
 
 The above works fine when we simply want to change a couple of things...
 However when we want to add a lot of modifications it's easier to create a separate CSS file and then enqueue it as seen in the example below:
-<script src="https://gist.github.com/aristath/3b69f2b1cc926a6e68a3.js"></script>
 
+```php
+<?php
+ 
+/**
+ * Enqueue the stylesheet.
+ */
+function my_enqueue_customizer_stylesheet() {
+ 
+	wp_register_style( 'my-customizer-css', get_template_directory_uri() . 'assets/css/customizer.css', NULL, NULL, 'all' );
+	wp_enqueue_style( 'my-customizer-css' );
+ 
+}
+add_action( 'customize_controls_print_styles', 'my_enqueue_customizer_stylesheet' );
+
+?>
+```
 As you can see, we used the `customize_controls_print_styles` hook again, but this time instead of writing our stylesheets directly in the PHP file, we enqueued an external stylesheet (in my example above, the styles is located in the assets/css/customizer.css inside my theme).
 
 So there you have it...
