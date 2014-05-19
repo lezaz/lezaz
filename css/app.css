@@ -1,5 +1,24 @@
+body {
+		background: #fcd920;
+}
+
 body p {
 	font-size: 1.2rem;
+}
+
+hr {
+	border-top-color: #333;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-right-color: #333;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-bottom-color: #333;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-color: #333;
+	border-left-style: solid;
+	border-left-width: 0px;
 }
 
 .move-right .exit-off-canvas {
