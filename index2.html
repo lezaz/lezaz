@@ -1,0 +1,9 @@
+---
+layout: home
+title: Aristeides Stathopoulos, WordPress Developer.
+---
+
+{% for post in site.posts %}
+    <a href="{{ post.url }}"><h3 class="text bold color theme">{{ post.title }}</h3></a>
+    {{ post.excerpt }}
+{% endfor %}

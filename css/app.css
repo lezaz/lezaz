@@ -1,0 +1,37 @@
+body p {
+	font-size: 1.2rem;
+}
+.move-right .exit-off-canvas {
+	box-shadow: none;
+}
+
+img.logo {
+	max-height: 30px;
+}
+
+.left-off-canvas-menu {
+	background: none;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffd42a), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(#ffd42a, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(#ffd42a, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image: -o-linear-gradient(#ffd42a, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to bottom, #ffd42a, rgba(0, 0, 0, 0)) 1 100%;
+
+    min-height: 300px;
+}
+
+ul.off-canvas-list li a {
+	color: #222;
+	border-bottom: none;
+}
+
+ul.off-canvas-list li a:hover {
+	background: #ffd42a;
+	color: #fff;
+}
+
+.small {
+	font-size: 85%;
+}

@@ -1,0 +1,4 @@
+name: aristeides.com
+markdown: redcarpet
+pygments: true
+permalink: pretty
