@@ -1,0 +1,12 @@
+---
+layout: archive
+title: WordPress Tips and Tricks.
+---
+
+<h2>Recent blog posts:</h2>
+{% for post in site.posts %}
+    <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <span class="date small">{{ post.date | date: "%-d %B %Y" }}</span>
+
+    {{ post.excerpt }}
+{% endfor %}

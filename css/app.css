@@ -1,5 +1,5 @@
 body {
-		background: #fcd920;
+		background: #fff;
 }
 
 body p {
@@ -33,11 +33,11 @@ img.logo {
 	background: none;
     border-width: 2px;
     border-style: solid;
-    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffd42a), to(rgba(0, 0, 0, 0))) 1 100%;
-    -webkit-border-image: -webkit-linear-gradient(#ffd42a, rgba(0, 0, 0, 0)) 1 100%;
-    -moz-border-image: -moz-linear-gradient(#ffd42a, rgba(0, 0, 0, 0)) 1 100%;    
-    -o-border-image: -o-linear-gradient(#ffd42a, rgba(0, 0, 0, 0)) 1 100%;
-    border-image: linear-gradient(to bottom, #ffd42a, rgba(0, 0, 0, 0)) 1 100%;
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(#333333, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(#333333, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image: -o-linear-gradient(#333333, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to bottom, #333333, rgba(0, 0, 0, 0)) 1 100%;
 
     min-height: 300px;
 }
