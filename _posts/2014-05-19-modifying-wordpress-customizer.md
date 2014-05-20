@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title:  "Modifying the WordPress Customizer"
 permalink: blog/modifying-wordpress-customizer
 ---

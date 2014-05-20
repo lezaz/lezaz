@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title:  "Caching the WordPress Customizer"
 permalink: blog/caching-customizer-css
 ---

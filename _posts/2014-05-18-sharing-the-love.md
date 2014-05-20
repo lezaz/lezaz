@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title:  "A little bit of history - sharing the love"
 permalink: blog/sharing-the-love
 ---
