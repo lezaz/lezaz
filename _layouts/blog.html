@@ -4,7 +4,9 @@
 	{% include header.html %}
 
 	<div class="container" id="content">
+		{% include share.html %}
 		{{ content }}
+		{% include share.html %}
 		{% include disqus.html %}
 	</div>
 
