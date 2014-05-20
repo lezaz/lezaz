@@ -10,8 +10,11 @@ title: Aristeides Stathopoulos, WordPress Developer.
 
 <h2>Recent blog posts:</h2>
 {% for post in site.posts %}
-    <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <span class="date small">{{ post.date | date: "%-d %B %Y" }}</span>
-
-    {{ post.excerpt }}
+	<div class="media">
+		<div class="media-body">
+			<h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+			<small class="date text-success">{{ post.date | date: "%-d %B %Y" }}</small>
+			{{ post.excerpt }}
+		</div>
+	</div>
 {% endfor %}
