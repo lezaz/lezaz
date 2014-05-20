@@ -4,6 +4,18 @@
 	{% include header.html %}
 
 	<div class="container" id="content">
+		<div class="well row">
+			<div class="col-md-6">
+				{% if page.previous.url %}
+					<a class="prev btn btn-lg btn-theme" href="{{page.previous.url}}"><i class="glyphicon glyphicon-circle-arrow-left"></i> {{page.previous.title}}</a> 
+				{% endif %}
+			</div>
+			<div class="col-md-6 text-right">
+				{% if page.next.url %} 
+					<a class="next btn btn-lg btn-theme" href="{{page.next.url}}">{{page.next.title}} <i class="glyphicon glyphicon-circle-arrow-right"></i></a>
+				{% endif %}
+			</div>
+		</div>
 		{% include share.html %}
 		{{ content }}
 		{% include share.html %}
