@@ -93,7 +93,7 @@ a:after {
 #headerwrap {
 	background: url(../img/header-bg.jpg) no-repeat center top;
 	margin-top: -10px;
-	padding-top:120px;
+	padding:15rem 0;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -114,6 +114,7 @@ a:after {
 	font-weight: 300;
 	font-size: 70px;
 	color: white;
+	margin: 0;
 }
 
 #foliowrap {
