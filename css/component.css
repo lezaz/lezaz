@@ -410,10 +410,11 @@ pre {
 	padding: none;
 }
 div.highlight .cp {	color: #ffffff; }
-div.highlight .sd {	color: #666; }
-div.highlight .c1 {	color: #666; }
+div.highlight .sd {	color: #777; }
+div.highlight .c1 {	color: #777; }
 div.highlight .cm {	color: #777; }
-div.highlight .k  {	color: #66d9ef; }
+div.highlight .k  {	color: #f92672; }
+div.highlight .nb {	color: #66d9ef; }
 div.highlight .nf { color: #a6e22e; }
 div.highlight .x  { color: #e6db74; }
 div.highlight .s1 { color: #e6db74; }
