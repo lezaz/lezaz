@@ -448,13 +448,13 @@ div.highlight .o  { color: #f92672; }
 }
 
 div.date-block {
-	width: 10rem;
-	height: 10rem;
+	width: 100px;
+	height: 100px;
 	background: #fcd920;
 	text-align: center;
 	overflow: hidden;
 	color: #fff;
-	padding: 1rem;
+	padding: 22px 15px;
 	border-radius: 50%;
 	line-height: 1;
 }
@@ -463,13 +463,16 @@ div.date-block .month {
 	clear: both;
 	font-size: 75%;
 	color: #000;
+	display: block;
 }
 
 div.date-block .day {
 	font-weight: 900;
+	display: block;
 }
 
 div.date-block .year {
 	font-size: 50%;
 	color: #000;
+	display: block;
 }
