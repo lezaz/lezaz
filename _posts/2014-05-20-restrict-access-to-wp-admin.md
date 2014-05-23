@@ -146,7 +146,7 @@ In that case, you can use the following:
  * If user is not an admin, do not allow access to the dashboard AT ALL.
  */
 function custom_remove_no_admin_access(){
-	if ( ! current_user_can( 'administrator' ) ) {
+	if ( is_admin() && ! current_user_can( 'manage_options' ) ) {
 		wp_redirect( home_url() );
 		die();
 	}
