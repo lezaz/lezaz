@@ -48,6 +48,7 @@ Building your own products and selling them is a burden.
 I still believe in my dream and I keep pursuing it, even if it took me 2 years to stop losing money.
 
 Keep dreaming and don't give up.
+
 Ari.
 
 
