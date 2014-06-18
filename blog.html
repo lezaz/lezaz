@@ -5,6 +5,7 @@ title: WordPress Tips and Tricks.
 
 <h2>Recent blog posts:</h2>
 {% for post in site.posts %}
+	{% if post.status != 'draft' %}
 	<div class="media">
 		<div class="pull-left">
 			<div class="date-block media-element">
@@ -20,5 +21,6 @@ title: WordPress Tips and Tricks.
 			{{ post.excerpt }}
 		</div>
 	</div>
+	{% endif %}
 	<div class="clearfix"></div>
 {% endfor %}
