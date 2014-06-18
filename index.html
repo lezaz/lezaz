@@ -16,6 +16,7 @@ title: Aristeides Stathopoulos, WordPress Developer.
 
 <h2>Recent blog posts:</h2>
 {% for post in site.posts %}
+	{% if post.status != 'draft' %}
 	<div class="media">
 		<div class="pull-left">
 			<div class="date-block media-element">
@@ -32,4 +33,5 @@ title: Aristeides Stathopoulos, WordPress Developer.
 		</div>
 	</div>
 	<div class="clearfix"></div>
+	{% endif %}
 {% endfor %}
