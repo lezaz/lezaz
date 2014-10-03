@@ -15,7 +15,7 @@ Some of these can even be generated because the developer has to keep compatibil
 If you simply set `WP_DEBUG` to `false` in your `wp-config.php` file you should be fine. **These don't affect your site in any way**.
 
 However, the problem is that some times the above does not work.  
-That can happen most times on cpeap shared hosts that force displaying PHP warnings and notices.  
+That can happen most times on cheap shared hosts that force displaying PHP warnings and notices.  
 In that case, you can replace this line from your wp-config.php file:
 
 ```php
