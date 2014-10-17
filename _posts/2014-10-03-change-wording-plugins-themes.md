@@ -1,6 +1,6 @@
 ---
 layout: blog
-title:  "How to change the wording of WordPress plugins plugins and themes"
+title:  "How to change the wording of WordPress plugins and themes"
 permalink: blog/howto-change-plugin-theme-text
 ---
 
