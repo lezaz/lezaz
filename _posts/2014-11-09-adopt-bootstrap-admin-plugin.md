@@ -12,7 +12,7 @@ Unfortunately I am not able to do so myself because I am working on other projec
 
 It's a shame to see such a plugin go to waste, so I have decided to put it up for adoption.
 
-In my mind I envisioned creating a WordPress administration interface that would look something like this: http://rubix.sketchpixy.com/ltr (click on the "[view demo](http://rubix.sketchpixy.com/ltr#/app/dashboard)"" link on the top right") but that's kinda complicated and knowing myself I would not be able to compromise with anything less than that.
+In my mind I envisioned creating a WordPress administration interface that would look something like this: [http://rubix.sketchpixy.com/ltr](http://rubix.sketchpixy.com/ltr) (click on the "[view demo](http://rubix.sketchpixy.com/ltr#/app/dashboard)"" link on the top right") but that's kinda complicated and knowing myself I would not be able to compromise with anything less than that.
 
 Since I am unable to work on this project at this time, I have decided that it's perhaps best if someone else takes it and gives it the love it needs.  
 However if you're thinking of taking over this plugin there are some things you should know.
