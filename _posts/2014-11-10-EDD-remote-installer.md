@@ -4,6 +4,9 @@ title:  "Remotely installing plugins from an EDD site"
 permalink: blog/edd-remote-installer
 ---
 
+TLDR: <a class="btn btn-primary" href="https://github.com/aristath/edd-remote-installer">GET THE PLUGIN ON GUTHUB</a>
+
+
 For a while now I've wanted to be able to remotely install WordPress plugins and themes from a site running[EDD](http://easydigitaldownloads.com). Sort of like the default WordPress plugin installer where you see a plugin, click on an "install" button and then the plugin is automatically downloaded and installed on your site.
 
 There's a commercial plugin out there called [EDD Remote Install](https://mindsharelabs.com/downloads/edd-remote-install/) that does this and I actually purchased long ago, but for some reason it is no longer being developed and maintained. I reached out to the developers and urged them to open-source it and make it available to the public if they no longer want to maintain it as that would be beneficial both for them and for the whole community.  
