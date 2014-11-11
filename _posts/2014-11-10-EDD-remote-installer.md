@@ -27,13 +27,13 @@ This is a simple page with 3 options:
 * Select a category for Plugins
 * Select a category for Themes.
 
-Once you enable the json option, your products that are categorized as WordPress plugins and themes are exposed to the client plugin. This of-course is optional because in your case you may want to hard-code the plugins/themes array in your client plugin that's all up to you!
+Once you enable the json option, your products that are categorised as WordPress plugins and themes are exposed to the client plugin. This of-course is optional because in your case you may want to hard-code the plugins/themes array in your client plugin that's all up to you!
 
 The sample client plugin gets the json from your server (as a test site we're using [press.codes](http://press.codes)), parses that and creates an admin screen with all the plugins that can be installed. In the future we'll hopefully also allow installation of themes, but for the time being we want to get the plugins right.
 
 Now here's the interesting part...  
 If the plugin on the server is free, then it is immediately downloaded and installed, no questions asked (just like it happens for [wordpress.org plugins](http://wordpress.org/plugins)).  
-However, if the plugin is NOT free, thenthe plugin assumes that you have the [EDD-Software Licensing](https://easydigitaldownloads.com/extensions/software-licensing/) plugin installed on your server and asks for a license. The client enters their license, and if it's valid then installation proceeds.
+However, if the plugin is NOT free, then the plugin assumes that you have the [EDD-Software Licensing](https://easydigitaldownloads.com/extensions/software-licensing/) plugin installed on your server and asks for a license. The client enters their license, and if it's valid then installation proceeds.
 
 This is more like a proof of concept for now so there are some minor bugs, no caching etc, but we're optimistic that it will be ready for production sites soon enough. It's still at an early stage in its development, primarily because I don't know much about jQuery and JS as a whole.
 
