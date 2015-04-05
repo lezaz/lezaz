@@ -2,7 +2,7 @@
 layout: page
 title: contact
 permalink: /contact/
-feature_image: bag-and-hands.jpg
+feature_image: bag-and-hands.jpeg
 form_heading: Contact me
 ---
 
