@@ -1,7 +1,14 @@
 ---
-layout: blog
+layout: post
 title:  "the Bootstrap-Admin theme is now available for adoption"
 permalink: blog/adopt-bootstrap-admin-plugin
+categories: WordPress
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: header-bg.jpg
+show_related_posts: false
 ---
 
 A few years ago I created a free WordPress plugin that was adding the necessary CSS & JS to the WordPress dashboard to make it cleaner. It was a pretty simple plugin... and it knew great success!

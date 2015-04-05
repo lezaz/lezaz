@@ -1,7 +1,14 @@
 ---
-layout: blog
+layout: post
 title:  "Modifying the WordPress Customizer"
 permalink: blog/modifying-wordpress-customizer
+categories: Customizer
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: photo-1416339672936-7fe434088e8c.jpeg
+show_related_posts: false
 ---
 
 The WordPress Customizer was first introduced in WordPress 3.7 and provides an easy way for themers and plugins developers to allow users to change their settings while at the same time they can see the effects of these changes in real-time on a preview screen.
@@ -15,7 +22,7 @@ The easiest way to do this (but not the best way), is to add some inline styles 
 
 ```php
 <?php
- 
+
 /**
  * This function adds some styles to the WordPress Customizer
  */
@@ -26,7 +33,7 @@ function my_customizer_styles() { ?>
 		}
 	</style>
 	<?php
- 
+
 }
 add_action( 'customize_controls_print_styles', 'my_customizer_styles', 999 );
 
@@ -44,15 +51,15 @@ However when we want to add a lot of modifications it's easier to create a separ
 
 ```php
 <?php
- 
+
 /**
  * Enqueue the stylesheet.
  */
 function my_enqueue_customizer_stylesheet() {
- 
+
 	wp_register_style( 'my-customizer-css', get_template_directory_uri() . 'assets/css/customizer.css', NULL, NULL, 'all' );
 	wp_enqueue_style( 'my-customizer-css' );
- 
+
 }
 add_action( 'customize_controls_print_styles', 'my_enqueue_customizer_stylesheet' );
 

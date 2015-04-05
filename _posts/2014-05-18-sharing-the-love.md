@@ -1,7 +1,14 @@
 ---
-layout: blog
-title:  "A little bit of history - sharing the love"
-permalink: blog/sharing-the-love
+layout: post
+title: "A little bit of history - sharing the love"
+date: 2014-05-18
+categories: general
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: og5Zcr5KQ6Kp6xUyjUUl_IMG_7101.jpg
+show_related_posts: false
 ---
 
 With this article I'll be sharing some more info about myself and launch this blog.

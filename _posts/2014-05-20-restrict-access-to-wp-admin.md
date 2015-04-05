@@ -1,13 +1,20 @@
 ---
-layout: blog
+layout: post
 title:  "How to restrict access to the WordPress Admin"
 permalink: blog/restrict-access-wordpress-dashboard
+categories: Administration
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: bsrOzgDkQhGRKOVC7Era_9X6A3584.jpg
+show_related_posts: false
 ---
 
 Sometimes when you build a WordPress multisite installation that will be accessible by many people, you want to restrict access to certain areas of your site.
 The reasons behind such a decision may vary: Some want to simply make it easier for their clients to navigate the dashboard by removing all the clutter and others want to protect sensitive areas of their sites.
 
-Sure there are some excellent plugins out there that you can use in order to achieve this, but most of the times you can achieve it with some simple custom code so there's no need to add a new plugin on your site. 
+Sure there are some excellent plugins out there that you can use in order to achieve this, but most of the times you can achieve it with some simple custom code so there's no need to add a new plugin on your site.
 
 This process can be usually divided to 2 steps:
 
@@ -49,7 +56,7 @@ function custom_remove_admin_theme_remove_menus () {
 				unset( $menu[key( $menu )] );
 			}
 		}
- 
+
 		remove_menu_page( 'edit-comments.php' );
 		remove_menu_page( 'themes.php' );
 		remove_menu_page( 'plugins.php' );

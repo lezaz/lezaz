@@ -1,7 +1,14 @@
 ---
-layout: blog
+layout: post
 title:  "How to change the wording of WordPress plugins and themes"
 permalink: blog/howto-change-plugin-theme-text
+categories: general
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: header-bg.jpg
+show_related_posts: false
 ---
 
 One of the most frequent questions I get is _"How do I change the Wording of a plugin and/or theme?"_

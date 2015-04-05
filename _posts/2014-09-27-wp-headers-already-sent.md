@@ -1,7 +1,14 @@
 ---
-layout: blog
+layout: post
 title:  "The Headers already sent by issue"
 permalink: blog/wordpress-headers-already-sent-by
+categories: general
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: header-bg.jpg
+show_related_posts: false
 ---
 
 On the support forums I work it's not uncommon to see an PHP error like this:

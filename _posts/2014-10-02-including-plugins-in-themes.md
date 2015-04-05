@@ -1,10 +1,17 @@
 ---
-layout: blog
+layout: post
 title:  "Should we include plugins in the Maera theme?"
 permalink: blog/including-plugins-in-themes-dilemma
+categories: general
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: header-bg.jpg
+show_related_posts: false
 ---
 
-This blog post is going to be alittle different than my previous ones...  
+This blog post is going to be a little different than my previous ones...  
 This one is more of a question.
 
 While developing the [Maera](https://github.com/wpmu/maera) theme, we needed to include libraries and scripts that are already present in other plugins. These include:
@@ -32,7 +39,7 @@ Cons:
 
 ### 2. Require users to manually install the plugins.
 
-Pros: 
+Pros:
 
 * Pretty easy to implement since we can use the [TGM Plugin Activation Class](http://tgmpluginactivation.com/) to require plugins and prevent the theme from being activated if these are not present.
 * Users will always get automatic updates from wordpress.org for these 3rd party libraries.

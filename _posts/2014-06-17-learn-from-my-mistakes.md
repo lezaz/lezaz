@@ -1,8 +1,14 @@
 ---
-layout: blog
+layout: post
 title:  "My mistakes and thoughts on building a WordPress shop "
 permalink: blog/mistakes-thoughts-building-wordpress-shop
-status: draft
+categories: general
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: OSASuBX1SGu4kb3ozvne_IMG_1088.jpg
+show_related_posts: false
 ---
 
 I've been using WordPress for a decade, but only started working with it about 5 years ago. I started as a freelancer and about 2 or 3 years ago, I had a very clear idea of what exists, what doesn’t, what tools I needed to build better websites and so on.
@@ -24,7 +30,7 @@ Instead they hit a second button to uninstall it, and then leave a comment like 
 We have a responsibility as developers to keep things as simple as possible. The KISS rule should always be applied to the software we develop.
 
 
-We all dream that someday we'll be able to make a living from 
+We all dream that someday we'll be able to make a living from
 In the beginning, we usually all start alone. So there are no salaries to pay. :) but you still have to pay the rent and eat some food, so you get a "normal" job. Mine was (and still is) at a large WordPress company as support staff. In other words, other -smarter and more capable by me- people write plugins, and I provide support for their clients. Support is essential to any product, do not underestimate it!
 So I work on my day job, and then as soon as that's done, I write some code for my own products. After that, I have to support my own clients, and also do stuff that normal people do like sleep and eat.
 At some point you simply can't do everything at once and you need some help in order to avoid what's known as [developer burnout](http://tech.onthis.net/2011/06/16/top-10-symptoms-of-developer-burnout/) you get some help. That can be a partner or an employee. I chose a mix of the 2. A good friend who I wanted as a partner. He helps me code and takes care of the forums. Since we code our plugins together, we also split the profits 50-50. But now I don't work on my own forums that much.. only when needed. So I have to pay him for that extra job that he's taken off my hands... it's reasonable and it's what I wanted to do anyway.
@@ -51,5 +57,3 @@ I still believe in my dream and I keep pursuing it, even if it took me 2 years t
 Keep dreaming and don't give up.
 
 Ari.
-
-

@@ -1,7 +1,14 @@
 ---
-layout: blog
+layout: post
 title:  "Remotely installing plugins from an EDD site"
 permalink: blog/edd-remote-installer
+categories: Easy-Digital-Downloads
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: photo-1414005987108-a6d06de8769f.jpeg
+show_related_posts: false
 ---
 
 TLDR: <a class="btn btn-primary" href="https://github.com/aristath/edd-remote-installer">GET THE PLUGIN ON GUTHUB</a>

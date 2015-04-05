@@ -1,7 +1,14 @@
 ---
-layout: blog
+layout: post
 title:  "Caching the WordPress Customizer"
 permalink: blog/caching-customizer-css
+categories: Customizer
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: unsplash-kitsune-4.jpg
+show_related_posts: false
 ---
 
 A lot of themes use the WordPress customizer to generate additional CSS.
@@ -20,23 +27,23 @@ Usually in order to get a setting and echo it back to your `<head>` you'd do som
 
 ```php
 <?php
- 
+
 /**
  * Apply our custom background color to the <body> of the document.
  */
 function my_custom_styles() {
- 
+
 	// Get the background color from the db
 	$bg = get_theme_mod( 'background_color' );
- 
+
 	// Build the styles
 	$style = 'body { background: ' . $bg . '; }';
- 
+
 	// Add the CSS inline.
 	// Please note that you must first enqueue the actual 'my-styles' stylesheet.
 	// See http://codex.wordpress.org/Function_Reference/wp_add_inline_style#Examples
 	wp_add_inline_style( 'my-styles', $style );
- 
+
 }
 add_action( 'wp_enqueue_scripts', 'my_custom_styles', 130 );
 
@@ -48,20 +55,20 @@ The purpose of this will be to cache the resulting CSS in a separate theme_mod s
 
 ```php
 <?php
- 
+
 /**
  * Cache the customizer styles
  */
 function my_customizer_styles_cache() {
 	global $wp_customize;
- 
+
 	// Check we're not on the Customizer.
 	// If we're on the customizer then DO NOT cache the results.
 	if ( ! isset( $wp_customize ) ) {
- 
+
 		// Get the theme_mod from the database
 		$data = get_theme_mod( 'my_customizer_styles', false );
- 
+
 		// If the theme_mod does not exist, then create it.
 		if ( $data == false ) {
 			// We'll be adding our actual CSS using a filter
@@ -69,19 +76,19 @@ function my_customizer_styles_cache() {
 			// Set the theme_mod.
 			set_theme_mod( 'my_customizer_styles', $data );
 		}
- 
+
 	// If we're on the customizer, get all the styles using our filter
 	} else {
- 
+
 		$data = apply_filters( 'my_styles_filter', null );
- 
+
 	}
- 
+
 	// Add the CSS inline.
 	// Please note that you must first enqueue the actual 'my-styles' stylesheet.
 	// See http://codex.wordpress.org/Function_Reference/wp_add_inline_style#Examples
 	wp_add_inline_style( 'my-styles', $data );
- 
+
 }
 add_action( 'wp_enqueue_scripts', 'my_customizer_styles_cache', 130 );
 
@@ -96,14 +103,14 @@ In order to overcome this we have to write another function. One that will simpl
 
 ```php
 <?php
- 
+
 /**
  * Reset the cache when saving the customizer
  */
 function my_reset_style_cache_on_customizer_save() {
- 
+
 	remove_theme_mod( 'my_customizer_styles' );
- 
+
 }
 add_action( 'customize_save_after', 'my_reset_style_cache_on_customizer_save' );
 
@@ -114,39 +121,39 @@ Now let's put all of the above together and we're done!
 
 ```php
 <?php
- 
+
 /**
  * Apply our custom background color to the <body> of the document.
  */
 function my_custom_styles() {
- 
+
 	// Get the background color from the db
 	$bg = get_theme_mod( 'background_color' );
- 
+
 	// Build the styles
 	$style = 'body { background: ' . $bg . '; }';
- 
+
 	// Add the CSS inline.
 	// Please note that you must first enqueue the actual 'my-styles' stylesheet.
 	// See http://codex.wordpress.org/Function_Reference/wp_add_inline_style#Examples
 	wp_add_inline_style( 'my-styles', $style );
- 
+
 }
 add_action( 'wp_enqueue_scripts', 'my_custom_styles', 130 );
- 
+
 /**
  * Cache the customizer styles
  */
 function my_customizer_styles_cache() {
 	global $wp_customize;
- 
+
 	// Check we're not on the Customizer.
 	// If we're on the customizer then DO NOT cache the results.
 	if ( ! isset( $wp_customize ) ) {
- 
+
 		// Get the theme_mod from the database
 		$data = get_theme_mod( 'my_customizer_styles', false );
- 
+
 		// If the theme_mod does not exist, then create it.
 		if ( $data == false ) {
 			// We'll be adding our actual CSS using a filter
@@ -154,29 +161,29 @@ function my_customizer_styles_cache() {
 			// Set the theme_mod.
 			set_theme_mod( 'my_customizer_styles', $data );
 		}
- 
+
 	// If we're on the customizer, get all the styles using our filter
 	} else {
- 
+
 		$data = apply_filters( 'my_styles_filter', null );
- 
+
 	}
- 
+
 	// Add the CSS inline.
 	// Please note that you must first enqueue the actual 'my-styles' stylesheet.
 	// See http://codex.wordpress.org/Function_Reference/wp_add_inline_style#Examples
 	wp_add_inline_style( 'my-styles', $data );
- 
+
 }
 add_action( 'wp_enqueue_scripts', 'my_customizer_styles_cache', 130 );
- 
+
 /**
  * Reset the cache when saving the customizer
  */
 function my_reset_style_cache_on_customizer_save() {
- 
+
 	remove_theme_mod( 'my_customizer_styles' );
- 
+
 }
 add_action( 'customize_save_after', 'my_reset_style_cache_on_customizer_save' );
 

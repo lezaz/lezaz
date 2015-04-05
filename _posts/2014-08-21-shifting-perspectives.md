@@ -1,7 +1,14 @@
 ---
-layout: blog
+layout: post
 title:  "Shift your perspective"
 permalink: blog/shifting-perspectives
+categories: general
+author_name : Aristeides Stathopoulos
+author_url : /about
+author_avatar: aristath
+show_avatar : false
+feature_image: a699942a.jpeg
+show_related_posts: false
 ---
 
 As humans we grow. We change perspectives and see things differently.  
