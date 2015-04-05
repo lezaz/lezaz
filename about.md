@@ -12,5 +12,3 @@ Some of my projects are:
 * [kirki](http://kirki.org)
 * [Maera](http://maera.io)
 * [Shoestrap](https://github.com/shoestrap/shoestrap-3)
-
-As well as others.
