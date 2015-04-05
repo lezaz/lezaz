@@ -39,10 +39,10 @@ Similarly if you're responsible for hiring people at a company, for god's sake s
 Everyone should have the same opportunities.**  
 It does not, under any circumstances mean that the number of speakers/employees should be the same.  
 
-Why am I writing all of the above? Simply because I recently read yet another another blog post - forgive me but I don't recall where, it just made an impression to me - where the female author was basically saying
+Why am I writing all of the above? Simply because I recently read yet another blog post - forgive me but I don't recall where, it just made an impression to me - where the female author was basically saying
 > I made a fuss about it and got chosen to speak on event X instead of Mr. Something. Yay!! Now the women/men ratio is 60-40%.
 
-That's perfectly fine... but on that blog post the author explained that she was fighting for women's rights in community X, because there are too many men and not enough women there and that is not fair. So, she contacted the organizers complaining that thy are sexists since the number of male speakers was by far greater than that of female speakers.  
+That's perfectly fine... but on that blog post the author explained that she was fighting for women's rights in community X, because there are too many men and not enough women there and that is not fair. So, she contacted the organizers complaining that they are sexists since the number of male speakers was by far greater than that of female speakers.  
 If she was right, then I can understand her frustration. But I seriously, seriously doubt that.  
 Judging from her overall tone in that blog post I got the impression the reason she was initially rejected was because she was simply not worth it.  
 If you were the event organizer in that case, what would you do?  
