@@ -37,7 +37,7 @@ Similarly if you're responsible for hiring people at a company, for god's sake s
 
 **Equality means using the same standards for everyone.  
 Everyone should have the same opportunities.**  
-It does not, under any circumstances mean that the number of speakers/employees should be the same.  
+It does not, under any circumstances mean that the number of speakers/employees should be equally divided.  
 
 Why am I writing all of the above? Simply because I recently read yet another blog post - forgive me but I don't recall where, it just made an impression to me - where the female author was basically saying
 > I made a fuss about it and got chosen to speak on event X instead of Mr. Something. Yay!! Now the women/men ratio is 60-40%.
