@@ -17,7 +17,7 @@ layout: with-sidebar
             {{ post.excerpt | truncatewords: 28 }}
 
             <p class="meta">
-                <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> in {{ post.categories.first | capitalize }}
+                <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> <i class="link-spacer"></i> <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>
             </p>
         </div>
 
