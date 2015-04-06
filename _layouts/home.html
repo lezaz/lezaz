@@ -4,6 +4,7 @@ layout: with-sidebar
 
 <div class="sub-nav">
     <a href="#" class="select-posts active">Posts</a>
+    <a href="#" class="select-categories">Categories</a>
 </div>
 
 <div class="home-page-posts animated fadeIn ">
@@ -30,3 +31,13 @@ layout: with-sidebar
     {% endfor %}
 
 </div><!-- Home page posts -->
+
+<div class="home-page-categories hide animated fadeIn ">
+    <div class="category row">
+        <section>
+            {% for category in site.categories %}
+                <a href='{{ "category/" | append: category.first | prepend: site.baseurl }}'><h2>{{ category | first | capitalize }}</h2></a>
+            {% endfor %}
+        </section>
+    </div>
+</div>
