@@ -10,7 +10,6 @@ var s,
             s = this.settings;
 
             // initalize
-            this.initalizers();
             this.bindUiActions();
         },
         bindUiActions: function (){
@@ -25,15 +24,6 @@ var s,
                 self.socialIconClick( $(this) );
             });
 
-        },
-        initalizers: function (){
-            // Initalize any plugins for functions when page loads
-
-            // JPanel Menu Plugin -
-            this.jpm();
-
-            // Add Bg colour from JS so jPanel has time to initalize
-            $('body').css({"background-color":"#333337"});
         },
         homePostsCatSwitch: function(){
             // Toggles between showing the categories and posts on the homepage
@@ -75,28 +65,17 @@ var s,
             return false;
 
         },
-        jpm: function(){
-            // Off Screen Navigation Plugin
-
-            s.jpm = $.jPanelMenu({
-                menu : '#menu-target',
-                trigger: '.menu-trigger',
-                animated: false,
-                beforeOpen : ( function() {
-                    if (matchMedia('only screen and (min-width: 992px)').matches) {
-                        $('.sidebar').css("left", "250px");
-                    }
-                }),
-                beforeClose : ( function() {
-                    $('.sidebar').css("left", "0");
-                    $('.writer-icon, .side-writer-icon').removeClass("fadeOutUp");
-                })
-            });
-
-            s.jpm.on();
-        }
     };
 
 $(document).ready(function(){
     app.init();
+});
+
+$(".menu-icon").click(function (e) {
+    $('body').toggleClass('menu-open');
+    e.stopPropagation()
+});
+
+$(document).click(function (e) {
+    if (! $(e.target).hasClass('menu-open')) $("body").removeClass('menu-open');
 });
