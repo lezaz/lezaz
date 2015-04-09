@@ -11,7 +11,7 @@ feature_image: oIpwxeeSPy1cnwYpqJ1w_Dufer.jpeg
 show_related_posts: false
 ---
 
-There are many tools and everyones has their favorites.
+There are many tools and everyone has their favorites.
 
 I'll just list some of my own favorites here, if some of you haven't heard of them I'd highly recommend you check them out.
 First of all though, let me clarify that I do not build websites. My focus is building WordPress plugins and themes that developers can use to build websites for their clients.
