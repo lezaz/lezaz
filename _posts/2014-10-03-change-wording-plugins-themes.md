@@ -2,7 +2,7 @@
 layout: post
 title:  "How to change the wording of WordPress plugins and themes"
 permalink: blog/howto-change-plugin-theme-text
-categories: general
+categories: WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

@@ -2,7 +2,8 @@
 layout: post
 title:  "Should we include plugins in the Maera theme?"
 permalink: blog/including-plugins-in-themes-dilemma
-categories: general
+categories:
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

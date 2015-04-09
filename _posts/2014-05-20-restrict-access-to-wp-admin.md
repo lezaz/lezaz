@@ -2,7 +2,9 @@
 layout: post
 title:  "How to restrict access to the WordPress Admin"
 permalink: blog/restrict-access-wordpress-dashboard
-categories: Administration
+categories:
+    - Administration
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

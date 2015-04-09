@@ -2,7 +2,9 @@
 layout: post
 title:  "The Headers already sent by issue"
 permalink: blog/wordpress-headers-already-sent-by
-categories: general
+categories:
+    - General
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

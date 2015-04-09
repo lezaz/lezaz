@@ -2,7 +2,9 @@
 layout: post
 title:  "Tools for developing on WordPress"
 permalink: blog/wordpress-dev-tools
-categories: WordPress
+categories:
+    - WordPress
+    - General
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

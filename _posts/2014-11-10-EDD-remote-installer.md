@@ -2,7 +2,9 @@
 layout: post
 title:  "Remotely installing plugins from an EDD site"
 permalink: blog/edd-remote-installer
-categories: Easy-Digital-Downloads
+categories:
+    - Easy-Digital-Downloads
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

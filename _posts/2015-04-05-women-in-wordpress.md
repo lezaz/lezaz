@@ -2,7 +2,9 @@
 layout: post
 title:  "Women in WordPress"
 permalink: blog/women-in-wordpress
-categories: General
+categories:
+    - General
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

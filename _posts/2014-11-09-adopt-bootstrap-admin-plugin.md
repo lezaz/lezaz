@@ -2,7 +2,8 @@
 layout: post
 title:  "the Bootstrap-Admin theme is now available for adoption"
 permalink: blog/adopt-bootstrap-admin-plugin
-categories: WordPress
+categories:
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

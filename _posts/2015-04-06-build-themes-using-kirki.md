@@ -2,7 +2,9 @@
 layout: post
 title:  "Building WordPress themes using the Kirki Customizer"
 permalink: blog/build-wordpress-theme-using-kirki
-categories: Customizer
+categories:
+    - Customizer
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

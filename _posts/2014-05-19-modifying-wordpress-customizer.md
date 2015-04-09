@@ -2,7 +2,9 @@
 layout: post
 title:  "Modifying the WordPress Customizer"
 permalink: blog/modifying-wordpress-customizer
-categories: Customizer
+categories:
+    - Customizer
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

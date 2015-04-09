@@ -2,7 +2,7 @@
 layout: post
 title:  "Shift your perspective"
 permalink: blog/shifting-perspectives
-categories: general
+categories: General
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

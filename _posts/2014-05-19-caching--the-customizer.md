@@ -2,7 +2,9 @@
 layout: post
 title:  "Caching the WordPress Customizer"
 permalink: blog/caching-customizer-css
-categories: Customizer
+categories:
+    - Customizer
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath

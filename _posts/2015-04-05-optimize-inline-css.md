@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Optimizing dynamically-generated CSS in WordPress"
-categories: CSS
+categories:
+    - CSS
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath
