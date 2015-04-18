@@ -7,7 +7,7 @@ author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath
 show_avatar : false
-feature_image: photo-1422433555807-2559a27433bd.jpeg
+feature_image: reunion-wallpaper-2560x1600.jpg
 show_related_posts: false
 ---
 
