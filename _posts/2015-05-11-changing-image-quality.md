@@ -18,16 +18,20 @@ However, in some cases you may want to change the actual compression level of yo
 To do that, you can simply add a single line in your theme's `functions.php` file:
 
 ```php
-add_filter( 'jpeg_quality', function() { return 100;} );
+<?php add_filter( 'jpeg_quality', function() { return 100;} ); ?>
 ```
 
 If you're on PHP 5.2 then you can do the same thing like this:
 
 ```php
+<?php
+
 function my_custom_jpeg_quality() {
     return 100;
 }
 add_filter( 'jpeg_quality', 'my_custom_jpeg_quality' );
+
+?>
 ```
 
 The above will allow you to have your images full-quality, but you can change the number to whatever you want. :)
