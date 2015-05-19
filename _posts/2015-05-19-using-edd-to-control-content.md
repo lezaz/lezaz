@@ -2,7 +2,9 @@
 layout: post
 title:  "How to control content access using Easy Digital Downloads"
 permalink: blog/edd-control-content
-categories: WordPress
+categories:
+    - Easy-Digital-Downloads
+    - WordPress
 author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath
