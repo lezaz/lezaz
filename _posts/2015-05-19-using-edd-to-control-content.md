@@ -7,7 +7,7 @@ author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath
 show_avatar : false
-feature_image: Lego-The-Simpsons-episode-7.jpg
+feature_image: a1mV1egnQwOqxZZZvhVo_street.jpeg
 show_related_posts: false
 ---
 
