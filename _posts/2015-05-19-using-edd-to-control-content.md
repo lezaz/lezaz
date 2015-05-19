@@ -9,7 +9,7 @@ author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath
 show_avatar : false
-feature_image: a1mV1egnQwOqxZZZvhVo_street.jpeg
+feature_image: edd.jpg
 show_related_posts: false
 ---
 
