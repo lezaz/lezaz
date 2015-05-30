@@ -14,9 +14,11 @@ show_related_posts: false
 
 Yesterday I started working on a new series of posts about manipulating color in WordPress and PHP in general.
 
-However, I realized that over the past 2 years I've written a lot of functions and classes to work with color, and the best and most complete so far is the one I included in the [Kirki](http://kirki.org) Toolkit.
+However, I realized that over the past 2 years I've written a lot of functions and classes to work with color, and the best and most complete so far is the one included in the [Kirki](http://kirki.org) Toolkit.
 
 So instead of writing a separate post for each of these methods, I'm going to just write examples of how to use it in your own projects.
+
+Note: You can see the documentation for the Kirki_Color class on its [github wiki](https://github.com/reduxframework/kirki/wiki/Kirki_Color).
 
 You can get the Kirki_Color class from github: [https://github.com/aristath/kirki/blob/master/includes/class-kirki-color.php](https://github.com/aristath/kirki/blob/master/includes/class-kirki-color.php)
 
