@@ -8,7 +8,7 @@ author_name : Aristeides Stathopoulos
 author_url : /about
 author_avatar: aristath
 show_avatar : false
-feature_image: e0c621a2-dc5b-43b7-ad7c-607744f6ca25.jpg
+feature_image: art-palette.jpg
 show_related_posts: false
 ---
 
