@@ -1,10 +1,16 @@
 ---
-layout: home
+layout: default
 feature_image: LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpeg
 title: WordPress Developer
-desc: Aristeides Stathopoulos
-include_cta_btn: false
-cta_text: Newsletter
-cta_link: about/
-cta_icon: fa-user-plus
 ---
+
+{% for post in site.posts %}
+    <div vocab="http://schema.org/" typeof="Article" itemscope itemtype="http://schema.org/Article">
+        <h2 itemprop="name" property="name">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span itemprop="author" property="author" class="author">Aristeides Stathopoulos</span>
+        {{ post.excerpt | truncatewords: 50 }}
+        <a href="{{ post.url }}" class="read-more">Read More</a>
+    </div>
+{% endfor %}

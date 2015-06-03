@@ -5,7 +5,9 @@ permalink: /about/
 feature_image: photo-1414604582943-2fd913b3cb17.jpeg
 ---
 
-My name is Aristeides Stathopoulos and I develop cool stuff for WordPress.
+Not much to say here, I'm really bad at talking about myself.
+
+I'll let my work do the talking for me. :)
 
 Some of my projects are:
 

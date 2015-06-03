@@ -2,36 +2,7 @@
 layout: default
 ---
 
-<header class="hero-image" style="background-image: url({{ site.baseurl }}/img/{{page.feature_image}});">
-    {% include nav.html %}
-</header>
-
-<main class="container">
-    <div class="row">
-        <div class="col-xs-12 single-content">
-            <p class="meta">
-                <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize}}</a> in {{ page.categories[0] | capitalize }}
-            </p>
-
-            <h1>{{ page.title }}</h1>
-
-            {% include share.html %}
-
-            {{ content }}
-            <div class="clearfix"></div>
-            {% include social.html %}
-            <div class="clearfix"></div>
-            {% include disqus.html %}
-
-        </div><!-- main-content/col -->
-    </div> <!--/row -->
-
-</main> <!-- /container -->
-
-<footer class="single">
-    {% include footer-single.html %}
-
-    {% if page.show_related_posts == true %}
-        {% include footer-related-posts.html %}
-    {% endif %}
-</footer>
+<h1>{{ page.title }}</h1>
+{% include share.html %}
+{{ content }}
+{% include disqus.html %}

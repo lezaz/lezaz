@@ -1,0 +1,71 @@
+<div class="footer">
+</div>
+
+<script src=' {{ "/js/classie.js" | prepend: site.baseurl }}'></script>
+<script src=' {{ "/js/modernizr.custom.js" | prepend: site.baseurl }}'></script>
+<script src=' {{ "/js/main.js" | prepend: site.baseurl }}'></script>
+<script src=' {{ "/js/jekyll-search.js" | prepend: site.baseurl }}'></script>
+
+<script>
+	(function() {
+		var morphSearch = document.getElementById( 'morphsearch' ),
+			input = morphSearch.querySelector( 'input.morphsearch-input' ),
+			ctrlClose = morphSearch.querySelector( 'span.morphsearch-close' ),
+			isOpen = isAnimating = false,
+			// show/hide search area
+			toggleSearch = function(evt) {
+				// return if open and the input gets focused
+				if( evt.type.toLowerCase() === 'focus' && isOpen ) return false;
+				if( isOpen ) {
+					classie.remove( morphSearch, 'open' );
+					// trick to hide input text once the search overlay closes
+					// todo: hardcoded times, should be done after transition ends
+					if( input.value !== '' ) {
+						setTimeout(function() {
+							classie.add( morphSearch, 'hideInput' );
+							setTimeout(function() {
+								classie.remove( morphSearch, 'hideInput' );
+								input.value = '';
+							}, 300 );
+						}, 500);
+					}
+
+					input.blur();
+				}
+				else {
+					classie.add( morphSearch, 'open' );
+				}
+				isOpen = !isOpen;
+			};
+		// events
+		input.addEventListener( 'focus', toggleSearch );
+		ctrlClose.addEventListener( 'click', toggleSearch );
+		// esc key closes search overlay
+		// keyboard navigation events
+		document.addEventListener( 'keydown', function( ev ) {
+			var keyCode = ev.keyCode || ev.which;
+			if( keyCode === 27 && isOpen ) {
+				toggleSearch(ev);
+			}
+		} );
+		morphSearch.querySelector( 'button[type="submit"]' ).addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+	})();
+</script>
+
+<script>
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ "/search.json" | prepend: site.baseurl }}',
+    searchResultTemplate: '<li><h3><a href="{url}" title="{desc}">{title}</a></h3></li>',
+});
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-9573573-8', 'auto');
+ga('send', 'pageview');
+</script>
