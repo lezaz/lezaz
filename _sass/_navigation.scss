@@ -1,8 +1,10 @@
 #trigger-overlay {
 	border-bottom: none;
+	cursor: pointer;
 	&:before {
 		content:'\2630';
 		margin-right: .5em;
+		cursor: pointer;
 	}
 }
 
@@ -17,6 +19,7 @@
 	height: 54px;
 	display: inline-block;
 	border-bottom: none;
+	cursor: pointer;
 }
 
 .overlay-hugeinc {
