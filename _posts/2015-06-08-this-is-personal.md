@@ -5,7 +5,7 @@ permalink: blog/this-is-who-we-are
 categories: WordPress
 ---
 
-Our society & Western civilization in general is structure around transactions.
+Our society & Western civilization in general is structured around transactions.
 
 When you go to the market and want to get things for your home, you pay money and get goods.  
 In order to get the money you'll be spending, you're basically selling to someone your most precious asset: **Time**. Now that's important because **time is the one thing that you get never get back. It's the only thing that once given is gone forever**.
