@@ -13,7 +13,11 @@ show_related_posts: false
 
 As humans we grow. We change perspectives and see things differently.  
 We keep learning new things and strive to improve ourselves.  
-This also applies to the code we write: We keep improving the code we write on a daily basis and improve the things we have already built. **The ugliest code I've seen is the code I wrote last year**. I always say that and some people may disagree, but it's true. And each year, each month that goes by we keep learning things and change the way we function. As a result, I sometimes look at the code I wrote a while back and say to my self "*what on earth have you done here Ari? Why??*"  
+This also applies to the code we write: We keep improving the code we write on a daily basis and improve the things we have already built.
+
+**The ugliest code I've seen is the code I wrote last year**.
+
+I always say that and some people may disagree, but it's true. And each year, each month that goes by we keep learning things and change the way we function. As a result, I sometimes look at the code I wrote a while back and say to my self "*what on earth have you done here Ari? Why??*"  
 
 Programming is all about efficiency: finding the best route to achieve a goal. However as programmers we sometimes we tend to over-complicate things and go out of our way to build something when it's not really necessary to do so. We add stuff to our scripts, and we think that this way we will simplify the lives of our users.  
 Take WordPress themes for example:  
