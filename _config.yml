@@ -1,24 +1,60 @@
-# Site settings
-title: Aristeides Stathopoulos
-email: aristath@gmail.com
-description: > # WordPress developer & themer
- focussed on UX, minimal design and making life simpler for others.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://aristeides.com" # the base hostname & protocol for your site
-enable_retina: false
-permalink: /blog/:title
-nav_list:
-  Home : ['Home', '/', 'fa-home']
-  About : ['About', '/about', 'fa-anchor']
-  Contact : ['Contact', '/contact', 'fa-plane']
-single_footer: '<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="EXD2PDDWG7TJ8"><input type="submit" class="btn btn-alert btn-lg" name="submit" alt="PayPal - The safer, easier way to pay online!" value="I LOVE YOU, DONORS"></form>'
-footer_links:
-    About: ['About', '/about']
-
-
 # Build settings
 markdown: redcarpet
-redcarpet:
-  extensions:    ["with_toc_data"]
 highlighter: pygments
-permalink: pretty
+gems:
+  - jemoji
+
+# Site settings
+title: "Aristeides Stathopoulos"
+description: > # this means to ignore newlines until "email:"
+   WordPress Developer
+
+email: aristath@gmail.com
+#blog logo
+logo: "/assets/images/aristath.png"
+# blog cover
+cover: "/assets/images/photo-1429734160945-4f85244d6a5a.jpeg"
+
+name: 'Aristeides Stathopoulos'
+author: 'Aristeides Stathopoulos'
+author_image: "https://en.gravatar.com/userimage/4563555/ba71d47fd22fdb98fcf31f828c33b3b0.jpg?size=200"
+
+paginate:	5
+
+url: "http://aristeides.com" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@aristath'
+
+#fill in disqus shortname to use disqus
+disqus: aristeides
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/aristath
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/aristath
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
