@@ -19,7 +19,7 @@ name: 'Aristeides Stathopoulos'
 author: 'Aristeides Stathopoulos'
 author_image: "https://en.gravatar.com/userimage/4563555/84f448100afa15fd3bf85a90c4f509a7.jpg?size=200"
 
-paginate:	5
+paginate:	10
 
 url: "http://aristeides.com" # the base hostname & protocol for your site
 baseurl: ""
@@ -38,12 +38,12 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+ - icon:	facebook
+   url:	https://facebook.com/aristath
+   desc: Connect with me facebook
+   share_url: https://www.facebook.com/sharer.php
+   share_title: ?t=
+   share_link: "&amp;u="
 
   - icon:	github
     url:	https://github.com/aristath
@@ -52,9 +52,9 @@ social:
     share_title:
     share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+ - icon:	google-plus
+   url:	https://google.com/+AristeidesStathopoulos
+   desc:	Add me on google+
+   share_url:
+   share_title:
+   share_link:
