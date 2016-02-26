@@ -1,8 +1,7 @@
 # Build settings
-markdown: redcarpet
-highlighter: pygments
 gems:
   - jemoji
+  - jekyll-paginate
 
 # Site settings
 title: "Aristeides Stathopoulos"
