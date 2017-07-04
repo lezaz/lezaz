@@ -114,7 +114,6 @@ Kirki::add_field( 'mytheme', array(
 	'section'   => 'mytheme_new_section_name',
 	'default'   => '#FFFFFF',
 	'priority'  => 10,
-	'transport' => 'auto',
 	'output'    => array(
 		array(
 			'element'       => 'button',
@@ -140,7 +139,6 @@ Kirki::add_field( 'mytheme', array(
 	'section'   => 'mytheme_new_section_name',
 	'default'   => '#FFFFFF',
 	'priority'  => 10,
-    'transport' => 'auto',
 	'output'    => array(
 		array(
 			'element'         => 'button',
@@ -184,7 +182,6 @@ Kirki::add_field( 'mytheme', array(
 	'section'   => 'mytheme_new_section_name',
 	'default'   => '#FFFFFF',
 	'priority'  => 10,
-    'transport' => 'auto',
 	'output'    => array(
 		array(
 			'element'         => 'button',
@@ -206,7 +203,6 @@ Kirki::add_field( 'mytheme', array(
 	'section'   => 'mytheme_new_section_name',
 	'default'   => '#F2F2F2',
 	'priority'  => 11,
-    'transport' => 'auto',
 	'output'    => array(
 		array(
 			'element'         => 'button',
@@ -233,7 +229,6 @@ Kirki::add_field( 'mytheme', array(
 		'max'  => 100,
 		'step' => 1,
 	),
-    'transport' => 'auto',
     'output'    => array(
 		array(
 			'element'         => 'button',
@@ -260,7 +255,6 @@ Kirki::add_field( 'mytheme', array(
 		'max'  => 100,
 		'step' => 1,
 	),
-    'transport' => 'auto',
     'output'    => array(
 		array(
 			'element'         => 'button',
@@ -278,6 +272,12 @@ Kirki::add_field( 'mytheme', array(
 
 As you can see in the example above, the `output` argument for all the fields in similar.
 The difference in each case is that `$` is used as a placeholder for the **current** setting, and the replacements are there for the remaining settings (all but the current).
+
+You can see an example of the above code functioning in this short screencast:
+
+<img src="/assets/article_images/2017-07-04-customizer-output-part-2/gradient-test.gif" style="width:100%;">
+
+You'll also notice that we don't use `postMessage` but instead use `refresh` for this demo. This will change in a future version and support for `'transport' => 'auto'` will be added for pattern replacements as well.
 
 <br><br>
 ### [Read Part 1: Automating CSS Output & postMessage scripts with Kirki](http://aristath.github.io/wordpress/customizer/2017/07/02/customizer-output-part-1.html)
