@@ -7,6 +7,8 @@ categories:
 image: /assets/article_images/chuttersnap-233105.jpg
 ---
 
+### [Read Part 2: Automating CSS Output & postMessage scripts with Kirki](http://aristath.github.io/wordpress/customizer/2017/07/04/customizer-output-part-2.html)
+<br><br>
 This will be the first of a series of posts on how to use one of my favorite features of the [Kirki Plugin](https://wordpress.org/plugins/kirki): Its ability to automate the CSS output and the generation of `postMessage` scripts for the Wordpress Customizer.
 
 Let's say for example that you want to do the following:
@@ -158,3 +160,7 @@ I'll close this post with a word of caution:
 <p>Even though Kirki simplifies some things and makes life easier, it's very important for developers to start without Kirki. You will have to learn the Customizer API and the way things work if you want to build things properly.</p>
 <p>If you think of a theme you're building as a house, then WordPress core and its APIs are the materials you'll be using. Kirki is nothing more than a tool. Learn your materials before you pick up a tool, otherwise you'll end up breaking things.</p>
 </div>
+
+<br><br>
+
+### [Read Part 2: Automating CSS Output & postMessage scripts with Kirki](http://aristath.github.io/wordpress/customizer/2017/07/04/customizer-output-part-2.html)
