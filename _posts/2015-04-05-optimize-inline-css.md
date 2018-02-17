@@ -5,7 +5,6 @@ categories:
     - CSS
     - WordPress
 author_name : Aristeides Stathopoulos
-author_url : /about
 author_avatar: aristath
 show_avatar : false
 feature_image: photo-1423439793616-f2aa4356b37e.jpeg

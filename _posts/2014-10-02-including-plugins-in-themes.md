@@ -5,7 +5,6 @@ permalink: blog/including-plugins-in-themes-dilemma
 categories:
     - WordPress
 author_name : Aristeides Stathopoulos
-author_url : /about
 author_avatar: aristath
 show_avatar : false
 feature_image: header-bg.jpg

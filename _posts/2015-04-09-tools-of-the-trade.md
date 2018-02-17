@@ -6,7 +6,6 @@ categories:
     - WordPress
     - General
 author_name : Aristeides Stathopoulos
-author_url : /about
 author_avatar: aristath
 show_avatar : false
 feature_image: oIpwxeeSPy1cnwYpqJ1w_Dufer.jpeg

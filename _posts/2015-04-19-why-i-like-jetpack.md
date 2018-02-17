@@ -4,7 +4,6 @@ title:  "I like Jetpack - You should too."
 permalink: blog/why-i-like-jetpack
 categories: WordPress
 author_name : Aristeides Stathopoulos
-author_url : /about
 author_avatar: aristath
 show_avatar : false
 feature_image: reunion-wallpaper-2560x1600.jpg

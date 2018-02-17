@@ -4,7 +4,6 @@ title:  "Shift your perspective"
 permalink: blog/shifting-perspectives
 categories: General
 author_name : Aristeides Stathopoulos
-author_url : /about
 author_avatar: aristath
 show_avatar : false
 feature_image: a699942a.jpeg

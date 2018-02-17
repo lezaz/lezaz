@@ -5,7 +5,6 @@ permalink: blog/wp-hide-php-errors
 categories:
     - WordPress
 author_name : Aristeides Stathopoulos
-author_url : /about
 author_avatar: aristath
 show_avatar : false
 feature_image: header-bg.jpg

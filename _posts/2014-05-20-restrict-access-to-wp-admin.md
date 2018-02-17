@@ -6,7 +6,6 @@ categories:
     - Administration
     - WordPress
 author_name : Aristeides Stathopoulos
-author_url : /about
 author_avatar: aristath
 show_avatar : false
 feature_image: bsrOzgDkQhGRKOVC7Era_9X6A3584.jpg

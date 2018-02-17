@@ -4,7 +4,6 @@ title:  "How to change image quality in WordPress"
 permalink: blog/change-wordpress-image-quality
 categories: WordPress
 author_name : Aristeides Stathopoulos
-author_url : /about
 author_avatar: aristath
 show_avatar : false
 feature_image: Lego-The-Simpsons-episode-7.jpg

@@ -6,7 +6,6 @@ categories:
     - Easy-Digital-Downloads
     - WordPress
 author_name : Aristeides Stathopoulos
-author_url : /about
 author_avatar: aristath
 show_avatar : false
 feature_image: edd.jpg
