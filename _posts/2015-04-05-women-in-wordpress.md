@@ -10,6 +10,7 @@ author_avatar: aristath
 show_avatar : false
 feature_image: unsplash_5244808e6b835_1.jpeg
 show_related_posts: false
+doNotIndex: true
 ---
 
 Every now and then I stumble upon an article about Women in WordPress, Women in Drupal or Women in another community.  

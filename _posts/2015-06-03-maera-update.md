@@ -3,6 +3,7 @@ layout: post
 title:  "Maera 1.2 released"
 permalink: blog/maera-1.2-released
 categories: WordPress
+doNotIndex: true
 ---
 
 I'm happy to announce that Maera version 1.2 has just been released.
