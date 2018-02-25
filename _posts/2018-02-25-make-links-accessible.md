@@ -4,7 +4,7 @@ title: "Making Links Accessible Using Contrast"
 categories:
   - Accessibility
 image: /assets/article_images/michael-benz-189972-unsplash.jpg
-permalink: accessibility/accessible-links
+permalink: accessibility/make-links-accessible
 ---
 
 Accessibility is one of the hardest things to accomplish on a site and one of the most confusing aspects of trying to make a website accessible, and choosing the right color to make sure your links are accessible is no different.
