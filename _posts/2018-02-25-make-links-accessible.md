@@ -7,9 +7,9 @@ image: /assets/article_images/michael-benz-189972-unsplash.jpg
 permalink: accessibility/make-links-accessible
 ---
 
-Accessibility is one of the hardest things to accomplish on a site and one of the most confusing aspects of trying to make a website accessible, and choosing the right color to make sure your links are accessible is no different.
+Accessibility is one of the hardest things to accomplish on a site. One of the confusing things when trying to make a website accessible, is choosing the right color for your links.
 
-More specifically what we for AA conformance is:
+More specifically what we need for AA conformance is:
 
 * A 4.5:1 contrast between the non-link text color and the background.
 * A 4.5:1 contrast between the link text color and the background.
@@ -21,9 +21,9 @@ However, if you want to achieve AAA conformance, the requirements will change to
 * A 7:1 contrast between the link text color and the background.
 * A 3:1 contrast between the link text color and the surrounding non-link text color.
 
-After a little experimentation I found that there's very little (if any) wiggle room in there. If your background color is not absolute white (`#FFF`) and the text color is not absolute black (`#000`), then there's absolutely no colors you can use for your links.
+After a little experimentation I found that there's very little (if any) wiggle room in there. If your background color is not absolute white (`#FFF`) and the text color is not absolute black (`#000`), then there's absolutely no colors you can use for your links if you want to achieve AAA conformance.
 
-While building an accessibility-ready theme for WordPress however, I needed to auto-calculate the links colors based on a user-selectable color. So here's where the hard part of this journey began. How does one auto-calculate accessibility-ready colors that have a 7:1 contrast with white and 3:1 contrast with black?
+While building an accessibility-ready theme for WordPress, I needed to auto-calculate the links colors based on a user-selectable color. So here's where the hard part of this journey began. How does one auto-calculate accessibility-ready colors that have a 7:1 contrast with white and 3:1 contrast with black?
 
 The answer is simple (but painful)... you don't autocalculate them. The calculations in JS or PHP would be an unnecessary complexity. And since the wiggle room for these colors is basically non-existent, I chose to hard-code an array.
 
