@@ -69,6 +69,12 @@ So yeah... If you built a theme back in 2016 and haven't updated it since then d
 
 4.0 is just a number. The 3.1 milestone will simply be renamed to 4.1 - though I expect most of the items to be implemented in v4.0. If something doesn't make it in 4.0, then at least this refactor will make all subsequent issues and features easier to resolve and implement.
 
+## Monetizing
+
+Kirki always has been and always will be free. That can't change, and even if it could I wouldn't want it to. However there are some more advanced things that I sometimes want to do and they don't belong in a free plugin. 
+
+Sometimes a control I build is awesome, but it's too specific in scope and can only benefit a very small percentage of developers, ones that have the same passions as I (like for example accessibility, inclusive design, automating things to make life easier for users). When something is too specific, won't benefit the majority of users or is just too hard to accomplish on a free plugin (because that happens too), then it will be available as a premium addon. So far there are 4 such controls but in the future there will be more (and yes, a theme too). You can see all premium controls on [wplemon.com](https://wplemon.com/downloads/category/kirki-addons/).
+
 ------------------------------------------
 
 This post turned out a bit bigger than I expected, if you got to the end thank you for reading all that stuff. Here's a lollipop for your trouble. 
