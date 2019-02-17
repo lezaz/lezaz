@@ -49,7 +49,7 @@ This will solve a lot of problems:
 * Code will be rewritten for PHP 5.6+ where needed
 * I won't necessarily be the sole maintainer for everything. Sure, I'm a bit of a control freak so I probably will, but at least there will be the possibility of finding a co-maintainer for specific packages if I manage to find someone who gains my trust and who has a good taste on code.
 * It will be easier to contribute to. Contributions are nice, but on large projects sometimes contributions are large. And If you've ever had to review a large pull-request, you know that anything above a 500 to 700-line diff is practically unmanageable. Or if you think it's manageable it might be for you, but my brain just can't handle it. If packages are smaller, it will be easier for people to contribute to since they will only need to change a couple of files, and it will be easier for me to review and merge suggested changes. Everybody wins.
-* Code-splitting will make it a lot easier to document things. Right now there's a big `docs` folder and everything's in there. If documentation is on a per-package basis and then somehow aggregated to the main site, then it will be easier to find areas that like documentation and write it. When a package changes, the docs can change as well.
+* Code-splitting will make it a lot easier to document things. Right now there's a big `docs` folder and everything's in there. If documentation is on a per-package basis and then somehow aggregated to the main site, then it will be easier to find areas that lack documentation and write it. When a package changes, the docs can change as well.
 * More contributions. You don't need me to merge anything in the plugin, you just create your own controls as separate packages. Don't like my implementation for the CSS-output handlers? No problem, just fork that package, tweak it to your liking and use it in your project. If you think others will benefit from your tweaks create a pull-request and chances are it will be merged if it has quality code and improves things. Even the slightest improvement is welcomed!
 
 A new organization was created for all the packages and you can track them on [github.com/kirki-framework](https://github.com/kirki-framework). There's also a separate [pull-request in the Kirki plugin](https://github.com/aristath/kirki/pull/2083). Keep in mind that this is still a work in progress so things are pretty fluid in there and they keep changing, but suggestions and discussion is more than welcomed in the PR.
@@ -71,12 +71,12 @@ So yeah... If you built a theme back in 2016 and haven't updated it since then d
 
 ## Monetizing
 
-Kirki always has been and always will be free. That can't change, and even if it could I wouldn't want it to. However there are some more advanced things that I sometimes want to do and they don't belong in a free plugin. 
+Kirki always has been and always will be free. That can't change, and even if it could I wouldn't want it to. I love open-souce, it's my way of giving back to the community and I sleep better at night. However there are some more advanced things that I sometimes want to do and they don't belong in a free plugin. 
 
-Sometimes a control I build is awesome, but it's too specific in scope and can only benefit a very small percentage of developers, ones that have the same passions as I (like for example accessibility, inclusive design, automating things to make life easier for users). When something is too specific, won't benefit the majority of users or is just too hard to accomplish on a free plugin (because that happens too), then it will be available as a premium addon. So far there are 4 such controls but in the future there will be more (and yes, a theme too). You can see all premium controls on [wplemon.com](https://wplemon.com/downloads/category/kirki-addons/).
+Sometimes a control I build is too specific in scope and can only benefit a very small percentage of developers, ones that have the same passions as I (like for example accessibility, inclusive design, automating things to make life easier for users). When something is too specific, won't benefit the majority of users or is just too hard to accomplish on a free plugin (because that happens too), then it will be available as a premium addon. So far there are 4 such controls but in the future there will be more (and yes, a theme too). You can see all premium controls on [wplemon.com](https://wplemon.com/downloads/category/kirki-addons/).
 
 ------------------------------------------
 
-This post turned out a bit bigger than I expected, if you got to the end thank you for reading all that stuff. Here's a lollipop for your trouble. 
+This post turned out a bit bigger than I expected, if you got to the end thank you for reading all that stuff. Here's a lollipop. 
 
 <img src="https://aristath.github.io/assets/article_images/lollipop.gif">
