@@ -5,7 +5,7 @@ permalink: blog/avoid-dynamic-css-in-head
 categories:
     - PHP
     - WordPress
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: art-palette.jpg

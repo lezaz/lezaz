@@ -5,7 +5,7 @@ permalink: blog/edd-remote-installer
 categories:
     - Easy-Digital-Downloads
     - WordPress
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: photo-1414005987108-a6d06de8769f.jpeg

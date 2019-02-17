@@ -5,7 +5,7 @@ permalink: blog/build-wordpress-theme-using-kirki
 categories:
     - Customizer
     - WordPress
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: oIpwxeeSPy1cnwYpqJ1w_Dufer.jpeg

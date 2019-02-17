@@ -3,7 +3,7 @@ layout: post
 title:  "My mistakes and thoughts on building a WordPress shop "
 permalink: blog/mistakes-thoughts-building-wordpress-shop
 categories: General
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: OSASuBX1SGu4kb3ozvne_IMG_1088.jpeg

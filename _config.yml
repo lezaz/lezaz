@@ -4,7 +4,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Aristeides Stathopoulos"
+title: "Ari Stathopoulos"
 description: > # this means to ignore newlines until "email:"
    WordPress Developer, Human.
 
@@ -14,8 +14,8 @@ logo: "/assets/images/aristath.png"
 # blog cover
 cover: "/assets/article_images/michael-benz-189972-unsplash.jpg"
 
-name: 'Aristeides Stathopoulos'
-author: 'Aristeides Stathopoulos'
+name: 'Ari Stathopoulos'
+author: 'Ari Stathopoulos'
 author_image: "https://en.gravatar.com/userimage/4563555/80f13c810d16fa4c4817805648734eec.jpg?size=200"
 
 paginate:	10

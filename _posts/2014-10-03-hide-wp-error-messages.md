@@ -4,7 +4,7 @@ title:  "How to hide PHP Warnings and Notices in WordPress"
 permalink: blog/wp-hide-php-errors
 categories:
     - WordPress
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: header-bg.jpg

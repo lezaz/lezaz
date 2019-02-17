@@ -5,7 +5,7 @@ permalink: blog/modifying-wordpress-customizer
 categories:
     - Customizer
     - WordPress
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: photo-1416339672936-7fe434088e8c.jpeg

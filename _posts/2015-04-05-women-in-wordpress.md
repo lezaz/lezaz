@@ -5,7 +5,7 @@ permalink: blog/women-in-wordpress
 categories:
     - General
     - WordPress
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: unsplash_5244808e6b835_1.jpeg

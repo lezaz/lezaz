@@ -3,7 +3,7 @@ layout: post
 title:  "Shift your perspective"
 permalink: blog/shifting-perspectives
 categories: General
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: a699942a.jpeg

@@ -4,7 +4,7 @@ title:  "Kirki_Color: A PHP Color Calculations class"
 permalink: blog/php-color-manipulation-class
 categories:
     - PHP
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: art-palette.jpg

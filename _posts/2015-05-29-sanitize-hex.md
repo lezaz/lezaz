@@ -4,7 +4,7 @@ title:  "Sanitizing a hex color value in PHP"
 permalink: blog/php-sanitize-hex-color
 categories:
     - PHP
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: e0c621a2-dc5b-43b7-ad7c-607744f6ca25.jpg

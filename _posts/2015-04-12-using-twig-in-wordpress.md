@@ -3,7 +3,7 @@ layout: post
 title:  "Why you should use twig for WordPress"
 permalink: blog/using-twig-in-wordpress
 categories: WordPress
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: a1mV1egnQwOqxZZZvhVo_street.jpeg

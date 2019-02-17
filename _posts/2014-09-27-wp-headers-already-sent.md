@@ -5,7 +5,7 @@ permalink: blog/wordpress-headers-already-sent-by
 categories:
     - General
     - WordPress
-author_name : Aristeides Stathopoulos
+author_name : Ari Stathopoulos
 author_avatar: aristath
 show_avatar : false
 feature_image: header-bg.jpg
