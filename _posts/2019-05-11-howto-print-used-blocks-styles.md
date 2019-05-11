@@ -3,7 +3,6 @@ layout: post
 title: "How to only print styles for Gutenberg Blocks used on a page"
 categories:
   - WordPress
-  - Sustainable-Web
 image: /assets/article_images/green-lego-plate.jpg
 ---
 
