@@ -55,10 +55,10 @@ class Scripts {
 		 * We'll use this to populate the $blocks property of this object
 		 * and enque the CSS needed for them.
 		 */
-        add_filter( 'render_block', [ $this, 'render_block' ], 10, 2 );		
-        
-        // Add styles in wp_footer.
-        add_action( 'wp_footer', [ $this, 'print_late_styles' ] );
+		add_filter( 'render_block', [ $this, 'render_block' ], 10, 2 );		
+		
+		// Add styles in wp_footer.
+		add_action( 'wp_footer', [ $this, 'print_late_styles' ] );
 	}
 
 	/**
@@ -70,17 +70,17 @@ class Scripts {
 	public function print_late_styles() {
 		$blocks = $this->get_blocks();
 		if ( empty( $blocks ) ) {
-            return;
-        }
-        echo '<style>';
-        foreach ( $blocks as $block ) {
-            $block = str_replace( 'core/', '', $block );
-            $path  = get_theme_file_path( "assets/css/blocks/$block.min.css" );
-            if ( file_exists( $path ) ) {
-                include_once $path;
-            }
-        }
-        echo '</style>';
+			return;
+		}
+		echo '<style>';
+		foreach ( $blocks as $block ) {
+			$block = str_replace( 'core/', '', $block );
+			$path  = get_theme_file_path( "assets/css/blocks/$block.min.css" );
+			if ( file_exists( $path ) ) {
+				include_once $path;
+			}
+		}
+		echo '</style>';
 	}
 
 	/**
@@ -123,7 +123,7 @@ The 2nd parameter on that hook is an array which contains the block's meta. If y
 
 ```php
 add_filter( 'render_block', function( $block_content, $block ) {
-    var_dump( $block );
+	var_dump( $block );
 }, 10, 2 );
 ```
 
@@ -133,11 +133,11 @@ The `render_block` method in our class simply adds that `blockName` inside a sta
 With the `render_block` filter and method in place, the `$blocks` property of the object now contains an array of all our blocks formatted like this:
 ```php
 [
-    'core/button',
-    'core/columns',
-    'core/button',
-    'core/paragraph',
-    'core/paragraph'
+	'core/button',
+	'core/columns',
+	'core/button',
+	'core/paragraph',
+	'core/paragraph'
 ]
 ```
 
@@ -149,24 +149,24 @@ $blocks = $this->get_blocks();`
 The `get_blocks` method simply returns our blocks with all duplicates removed using the [`array_unique()`](https://www.php.net/manual/en/function.array-unique.php) function. So the example array from above now looks like this:
 ```php
 [
-    'core/button',
-    'core/columns',
-    'core/paragraph'
+	'core/button',
+	'core/columns',
+	'core/paragraph'
 ]
 ```
 
 Next, the `print_late_styles` method does this:
 ```php
 if ( empty( $blocks ) ) {
-    return;
+	return;
 }
 echo '<style>';
 foreach ( $blocks as $block ) {
-    $block = str_replace( 'core/', '', $block );
-    $path  = get_theme_file_path( "assets/css/blocks/$block.min.css" );
-    if ( file_exists( $path ) ) {
-        include_once $path;
-    }
+	$block = str_replace( 'core/', '', $block );
+	$path  = get_theme_file_path( "assets/css/blocks/$block.min.css" );
+	if ( file_exists( $path ) ) {
+		include_once $path;
+	}
 }
 echo '</style>';
 ```
