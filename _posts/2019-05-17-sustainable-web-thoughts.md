@@ -72,7 +72,8 @@ If we're talking about a site that has some traffic and has revenue (or the pote
 
 ## A note to developers
 
-We can achieve many things if we're just smart with the code we write. I realize some of the things above may sound a bit scary at first, but they're really not. We just have to put some thought into the code we write instead of jumping in, head-first. Be smart, keep learning, keep improving. That's all one can do.
+We can achieve many things if we're just smart with the code we write. I realize some of the things above may sound a bit scary at first, but they're really not. We just have to put some thought into the code we write instead of jumping in, head-first. Be smart, keep learning, keep improving. That's all one can do.  
+In the meantime, give this some thought: A single pageload on an average site today is more than 5MB. Doom 2 was a first-person shooter game released in 1994 and it included a complete 3d engine, complex graphics, maps, scenarios and a whole lot of code. Its size was about 3MB. Be smart with your code. We can do better.
 
 ## Shameless self-promotion
 
