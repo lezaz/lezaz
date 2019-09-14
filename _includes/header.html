@@ -19,10 +19,10 @@
 		<p class="header__tagline">{{ site.data.settings.basic_settings.site_tagline }}</p>
 
 		<div class="menu">
-			<div class="menu__toggle js-menu-toggle">
+			<div class="menu__toggle js-menu-toggle" onclick="toggleMenuWrap();">
 				<div class="menu__toggle__icon"><span></span></div>
 			</div>
-			<div class="menu__wrap">
+			<div id="menu_wrap" class="menu__wrap mobile-hidden">
 				<ul class="menu__list">
 					{% for item in site.data.settings.menu_settings.menu_items %}
 					<li class="menu__list__item">
@@ -32,6 +32,15 @@
 				</ul>
 				{% include socials.html %}
 			</div>
+			<script>
+				function toggleMenuWrap() {
+					if ( document.body.classList.contains( 'menu--open' ) ) {
+						document.body.classList.remove( 'menu--open' )
+					} else {
+						document.body.classList.add( 'menu--open' )
+					}
+				}
+			</script>
 		</div>
 
 	</div>
