@@ -368,4 +368,15 @@
     .kd { color: #ddd; }
     .nx { font-weight: 700; }
     .c1, .cm { color: #888; }
+
+    * {
+        &::selection {
+            background: #fff;
+            color: #000;
+        }
+        &::-moz-selection {
+            background: #fff;
+            color: #000;
+        }
+    }
 }
