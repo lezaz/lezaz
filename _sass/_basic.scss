@@ -207,8 +207,14 @@ a {
 	font-weight: $bold-weight;
 	@include transition(all 0.15s ease-in-out);
 
-	&:hover {
-		color: $accent-color;
+	&:hover,
+	&:focus {
+		outline: 1px solid;
+	}
+	&:focus,
+	&:active {
+		outline: 2px solid;
+		outline-offset: 2px;
 	}
 }
 
