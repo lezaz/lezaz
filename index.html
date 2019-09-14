@@ -1,91 +1,54 @@
 ---
 layout: default
+title: Ari Stathopoulos
+description: WordPress Developer, Accessibility & Sustainability evangelist, Human.
 ---
 
-<div class="teaserimage">
-    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
-        Teaser Image
-    </div>
-</div>
+<section class="blog single">
 
-<header class="blog-header">
-    {% if site.logo %}
-      <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
-    {% endif %}
-    <h1 class="blog-title">{{ site.title }}</h1>
-    <h2 class="blog-description">{{ site.description }}</h2>
-    <div class="custom-links">
-      {% for social in site.social %}
-        {% if social.url %}
-            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        {% endif %}
-      {% endfor %}
-    </div>
-</header>
+	<div class="wrap">
 
+		{% for post in paginator.posts %}
 
-<main class="content" role="main">
+		<article class="blog-post">
 
-    {% if site.tags.featured %}
-    <h5 class="index-headline featured"><span>Featured</span></h5>
+			<div class="blog-post__header">
+				<h2 class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
+			</div>
 
-    <div class="container featured">
-      {% for post in site.tags.featured %}
-        {% if post.doNotIndex != true %}
-            <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-              <div class="article-item">
-                <header class="post-header">
-                  <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-                </header>
-                <section class="post-excerpt" itemprop="description">
-                  <p>{{ post.content|strip_html|truncatewords:50 }}</p>
-                </section>
-                <div class="post-meta">
-                  <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-                </div>
-              </div>
-            </article>
-        {% endif %}
-      {% endfor %}
-    </div>
+			{% if post.featured_image %}
+			<a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.featured_image  }});"></a>
+			{% endif %}
 
-    <h5 class="index-headline normal"><span>Regular</span></h5>
-    {% endif %}
+			<div class="blog-post__content">
+				<p>{{ post.excerpt }}</p>
+				<p><a href="{{ post.url }}" class="button">Read More</a>
+			</div>
 
-    <div class="cf frame">
-      {% for post in paginator.posts %}
-        {% if post.doNotIndex != true %}
-            <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-              <div class="article-item">
-                <header class="post-header">
-                  <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-                </header>
-                <section class="post-excerpt" itemprop="description">
-                  <p>{{ post.excerpt|strip_html|truncatewords:50 }}</p>
-                </section>
-                <div class="post-meta">
-                  <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-                </div>
-              </div>
-            </article>
-        {% endif %}
-      {% endfor %}
-    </div>
+		</article>
 
-    <nav class="pagination" role="navigation">
-      {% if paginator.next_page %}
-        <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
-      {% endif %}
-      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-          <a class="older-posts" href="/">Newer posts &rarr;</a>
-        {% else %}
-          <a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
-        {% endif %}
-      {% endif %}
-    </nav>
-</main>
+		{% endfor %}
+
+	</div>
+
+</section>
+
+{% if paginator.total_pages > 1 %}
+
+<section class="pagination">
+
+	{% if paginator.previous_page %}
+	<div class="pagination__prev">
+		<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><svg aria-hidden="true" style="width:1rem;height:1rem;vertical-align:text-bottom;line-height:1;" focusable="false" data-prefix="fas" data-icon="angle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-angle-left fa-w-8 fa-3x"><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" class=""></path></svg></i> <span>Newer Posts</span></a>
+	</div>
+	{% endif %}
+	{% if paginator.next_page %}
+	<div class="pagination__next">
+		<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <svg aria-hidden="true" style="width:1rem;height:1rem;vertical-align:text-bottom;line-height:1;" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-angle-right fa-w-8 fa-3x"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" class=""></path></svg></a>
+	</div>
+	{% endif %}
+
+</section>
+
+{% endif %}

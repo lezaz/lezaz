@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Automating CSS Output & postMessage scripts with Kirki (Part 2)"
+permalink: "wordpress/customizer/2017/07/04/customizer-output-part-2"
 categories:
   - WordPress
   - Customizer
-image: /assets/article_images/chuttersnap-233105.jpg
 ---
 
 ### [Read Part 1: Automating CSS Output & postMessage scripts with Kirki](http://aristath.github.io/wordpress/customizer/2017/07/02/customizer-output-part-1.html)

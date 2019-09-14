@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Themes Acquisition from WPSatchel"
+permalink: "general/2016/06/07/acquisition-announcement"
 categories: general
-image: /assets/article_images/photo-1414542158951-f32d326a4820.jpeg
 ---
 
 ## The past

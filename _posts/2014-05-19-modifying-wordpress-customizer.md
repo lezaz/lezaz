@@ -5,11 +5,6 @@ permalink: blog/modifying-wordpress-customizer
 categories:
     - Customizer
     - WordPress
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: photo-1416339672936-7fe434088e8c.jpeg
-show_related_posts: false
 ---
 
 The WordPress Customizer was first introduced in WordPress 3.7 and provides an easy way for themers and plugins developers to allow users to change their settings while at the same time they can see the effects of these changes in real-time on a preview screen.

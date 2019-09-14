@@ -5,11 +5,6 @@ permalink: blog/restrict-access-wordpress-dashboard
 categories:
     - Administration
     - WordPress
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: bsrOzgDkQhGRKOVC7Era_9X6A3584.jpg
-show_related_posts: false
 ---
 
 Sometimes when you build a WordPress multisite installation that will be accessible by many people, you want to restrict access to certain areas of your site.

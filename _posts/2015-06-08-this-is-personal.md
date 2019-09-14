@@ -3,7 +3,6 @@ layout: post
 title:  "About people working on OpenSource projects"
 permalink: blog/this-is-who-we-are
 categories: WordPress
-doNotIndex: true
 ---
 
 Our society & Western civilization in general is structured around transactions.

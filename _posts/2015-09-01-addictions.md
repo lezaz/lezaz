@@ -2,7 +2,7 @@
 layout: post
 title:  "Addictions"
 categories: general
-image: /assets/article_images/photo-1414542158951-f32d326a4820.jpeg
+permalink: "general/2015/09/01/addictions"
 ---
 
 We all have our addictions. It's part of our human nature...

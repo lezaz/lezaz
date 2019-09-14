@@ -3,11 +3,6 @@ layout: post
 title:  "Shift your perspective"
 permalink: blog/shifting-perspectives
 categories: General
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: a699942a.jpeg
-show_related_posts: false
 ---
 
 As humans we grow. We change perspectives and see things differently.  

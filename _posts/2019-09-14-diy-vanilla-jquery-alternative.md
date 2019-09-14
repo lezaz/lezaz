@@ -3,10 +3,9 @@ layout: post
 title: "Migrating from jQuery to vanilla JS"
 categories:
   - JavaScript
-image: /assets/article_images/michael-benz-189972-unsplash.jpg
 ---
 
-jQuery has been an easy way to get things done in JavaScript for years. It cuts down development time and allows us to prototype websites a lot faster. It's been around for years, and as a WordPress developer I've been using it for a long, long time. I stopped using it a while back and I am now trying to build things using "Vanilla" JS (which is a strange name if you ask me... Vanilla is not "flavorless", it's not "plain". Vanilla is a great and intense flavor).  
+jQuery has been an easy way to get things done in JavaScript for years. It cuts down development time and allows us to prototype websites a lot faster. It's been around for years, and as a WordPress developer I've been using it for a long, long time. I stopped using it a while back and I am now trying to build things using "Vanilla" JS (which by the way is a strange name if you ask me... Vanilla is not "flavorless", it's not "plain". Vanilla is a great and intense flavor).  
 Recently I wanted to migrate some scripts from jQuery to Vanilla JS. It can sometimes be a daunting task and if the script you want to migrate is big, it can be a time-consuming process. So I started investigating ways to make the process easier and cut down the time it took me to get things done.  
 I ended up writing a jQuery drop-in replacement and I wanted to release it as a new script that people can use if they want to move away from jQuery and to something lighter without all the technical debt. I created a new repository on Github, pushed my code, created a new site for it, and then... I deleted everything.  
 The world doesn't need yet another jQuery alternative. What we really need is developers who don't rely on heavy scripts to do simple things.  
@@ -290,7 +289,7 @@ _lemon.prototype.css = function( property, value ) {
 
 The `.camelCase()` function we added there is simply converting the CSS property names to a format that JS will understand.
 
-## Tying it all together
+## Putting it all together
 
 ```js
 /**
@@ -575,3 +574,5 @@ _lemon.prototype.on = function( event, listener ) {
 	return this;
 };
 ```
+
+If you decide to put all of the above functions in your script its size is approximately 810 bytes (minified & gzipped), which is still pretty good if you ask me.

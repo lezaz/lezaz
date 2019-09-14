@@ -1,59 +1,54 @@
-# Build settings
-gems:
-  - jemoji
+site: Ari Stathopoulos
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
+plugins:
   - jekyll-paginate
+  - jekyll-sitemap
 
-# Site settings
-title: "Ari Stathopoulos"
-description: > # this means to ignore newlines until "email:"
-   WordPress Developer, Accessibility & Sustainability evangelist, Human.
-
-email: aristath@gmail.com
-#blog logo
-logo: "/assets/images/aristath.png"
-# blog cover
-cover: "/assets/article_images/michael-benz-189972-unsplash.jpg"
-
-name: 'Ari Stathopoulos'
-author: 'Ari Stathopoulos'
-author_image: "https://en.gravatar.com/userimage/4563555/80f13c810d16fa4c4817805648734eec.jpg?size=200"
-
-paginate:	10
-
-url: "https://aristath.github.io" # the base hostname & protocol for your site
-baseurl: ""
-#used to display twitter cards
-twitter_handle: '@aristath'
-
-#fill in disqus shortname to use disqus
-disqus: aristeides
-
-# social icons and sharing options
-social:
-  - icon:	twitter
-    url:	https://twitter.com/aristath
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
-
-# - icon:	facebook
-#   url:	https://facebook.com/aristath
-#   desc: Connect with me facebook
-#   share_url: https://www.facebook.com/sharer.php
-#   share_title: ?t=
-#   share_link: "&amp;u="
-
-  - icon:	github
-    url:	https://github.com/aristath
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
-
-# - icon:	google-plus
-#   url:	https://google.com/+AristeidesStathopoulos
-#   desc:	Add me on google+
-#   share_url:
-#   share_title:
-#   share_link:
+paginate: 6
+paginate_path: "/blog/page:num/"
+  

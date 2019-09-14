@@ -3,11 +3,6 @@ layout: post
 title:  "Why you should use twig for WordPress"
 permalink: blog/using-twig-in-wordpress
 categories: WordPress
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: a1mV1egnQwOqxZZZvhVo_street.jpeg
-show_related_posts: false
 ---
 
 WordPress is a great platform and it's as versatile as a platform can be. Proof of that is that it currently powers more than 23% of the internet as we know it. Historically though that has not always been the case and there's one thing that made WordPress stand out: **Themes**.

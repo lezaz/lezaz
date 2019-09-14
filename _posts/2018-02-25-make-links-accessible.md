@@ -3,7 +3,6 @@ layout: post
 title: "Making Links Accessible Using Contrast"
 categories:
   - Accessibility
-image: /assets/article_images/michael-benz-189972-unsplash.jpg
 permalink: accessibility/make-links-accessible
 ---
 

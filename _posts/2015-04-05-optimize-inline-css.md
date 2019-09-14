@@ -4,11 +4,6 @@ title:  "Optimizing dynamically-generated CSS in WordPress"
 categories:
     - CSS
     - WordPress
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: photo-1423439793616-f2aa4356b37e.jpeg
-show_related_posts: false
 ---
 When building a WordPress theme (or plugin) we sometimes need to generate some styles based on the user options, and then add these styles to the `<head>`.
 

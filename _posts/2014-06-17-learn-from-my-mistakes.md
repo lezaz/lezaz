@@ -3,12 +3,6 @@ layout: post
 title:  "My mistakes and thoughts on building a WordPress shop "
 permalink: blog/mistakes-thoughts-building-wordpress-shop
 categories: General
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: OSASuBX1SGu4kb3ozvne_IMG_1088.jpeg
-show_related_posts: false
-doNotIndex: true
 ---
 
 I've been using WordPress for a decade, but only started working with it about 5 years ago. I started as a freelancer and about 2 or 3 years ago, I had a very clear idea of what exists, what doesn’t, what tools I needed to build better websites and so on.

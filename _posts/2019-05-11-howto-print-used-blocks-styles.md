@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "How to only print styles for Gutenberg Blocks used on a page"
+permalink: "wordpress/2019/05/11/howto-print-used-blocks-styles"
 categories:
   - WordPress
-image: /assets/article_images/green-lego-plate.jpg
 ---
 
 The new WordPress Editor (codenamed Gutenberg) is amazing as it allows users to build rich and beautiful interfaces with minimal effort. But it comes with a lot of styles and logic bundled-in, and I happen to have strong feelings about that, most of them negative ones. why would anyone enqueue styles for a button block, or a gallery block if a page doesn't use them? We should all strive to build a more sustainable web, so that needs to change.

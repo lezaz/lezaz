@@ -5,11 +5,6 @@ permalink: blog/wordpress-dev-tools
 categories:
     - WordPress
     - General
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: oIpwxeeSPy1cnwYpqJ1w_Dufer.jpeg
-show_related_posts: false
 ---
 
 There are many tools and everyone has their favorites.

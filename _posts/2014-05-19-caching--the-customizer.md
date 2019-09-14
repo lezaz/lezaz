@@ -5,11 +5,6 @@ permalink: blog/caching-customizer-css
 categories:
     - Customizer
     - WordPress
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: unsplash-kitsune-4.jpeg
-show_related_posts: false
 ---
 
 A lot of themes use the WordPress customizer to generate additional CSS.

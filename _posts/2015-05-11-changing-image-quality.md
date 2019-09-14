@@ -3,11 +3,6 @@ layout: post
 title:  "How to change image quality in WordPress"
 permalink: blog/change-wordpress-image-quality
 categories: WordPress
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: Lego-The-Simpsons-episode-7.jpg
-show_related_posts: false
 ---
 
 WordPress by default compresses and optimizes images for web-use.

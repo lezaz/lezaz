@@ -5,11 +5,6 @@ permalink: blog/wordpress-headers-already-sent-by
 categories:
     - General
     - WordPress
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: header-bg.jpg
-show_related_posts: false
 ---
 
 On the support forums I work it's not uncommon to see an PHP error like this:

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "The future of Kirki - Planning v4.0"
+permalink: "wordpress/customizer/2019/02/17/planning-kirki-4"
 categories:
   - WordPress
   - Customizer
-image: /assets/article_images/michael-benz-189972-unsplash.jpg
 ---
 
 This year Kirki got **5 years old** and broke the **2 million downloads** barrier.

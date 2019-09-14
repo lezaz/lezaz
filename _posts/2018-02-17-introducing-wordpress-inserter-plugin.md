@@ -6,7 +6,6 @@ categories:
   - REST-API
   - Underscore.js
   - Backbone.js
-image: /assets/article_images/inserter/michal-grosicki-216658.jpg
 permalink: wordpress/introducing-wordpress-inserter-plugin
 ---
 

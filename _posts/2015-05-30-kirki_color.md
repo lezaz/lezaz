@@ -4,11 +4,6 @@ title:  "Kirki_Color: A PHP Color Calculations class"
 permalink: blog/php-color-manipulation-class
 categories:
     - PHP
-author_name : Ari Stathopoulos
-author_avatar: aristath
-show_avatar : false
-feature_image: art-palette.jpg
-show_related_posts: false
 ---
 
 Yesterday I started working on a new series of posts about manipulating color in WordPress and PHP in general.

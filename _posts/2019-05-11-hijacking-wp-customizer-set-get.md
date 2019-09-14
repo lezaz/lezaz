@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Hijacking the wp.customize set & get methods for settings"
+permalink: "wordpress/customizer/2019/05/11/hijacking-wp-customizer-set-get"
 categories:
   - WordPress
   - Customizer
-image: /assets/article_images/michael-benz-189972-unsplash.jpg
 ---
 
 While refactoring the [Kirki framework](https://aristath.github.io/kirki) for v4.0, I needed to hijack the `get` and `set` functions from the JS API in order to apply some custom logic, so this is just a quick post to show how you can do that.  
