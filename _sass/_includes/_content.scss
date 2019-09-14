@@ -6,15 +6,15 @@
 
 .intro {
 	margin-top: 0;
-	padding: 1rem 2.5rem;
+	padding: 1rem;
 
 	// @include mq(tabletp) {
 	// 	padding: 35px 0 0;
 	// }
 
-	// @include mq(tabletl) {
-	// 	padding: 35px 40px 0;
-	// }
+	@include mq(tabletl) {
+		padding: 1rem 3rem;
+	}
 
 	// @include mq(laptop) {
 	// 	padding: 53px 60px 0;
@@ -51,16 +51,16 @@
 
 .single {
 	margin-top: 0;
-	padding: 1.5rem 2.5rem;
+	padding: 1.5rem 1rem;
 	min-height: 100vh;
 
 	// @include mq(tabletp) {
 	// 	padding: 40px 0;
 	// }
 
-	// @include mq(tabletl) {
-	// 	padding: 30px 40px 40px;
-	// }
+	@include mq(tabletl) {
+		padding: 1.5rem 3rem;
+	}
 
 	// @include mq(laptop) {
 	// 	padding: 40px 60px 60px;

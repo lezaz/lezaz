@@ -6,15 +6,15 @@
 
 .blog {
 	margin-top: 0;
-	padding: 2rem;
+	padding: 1.5rem 2rem;
 
 	// @include mq(tabletp) {
 	// 	padding: 35px 0 0;
 	// }
 
-	// @include mq(tabletl) {
-	// 	padding: 35px 40px 0;
-	// }
+	@include mq(tabletl) {
+		padding: 1.5rem 3rem
+	}
 
 	// @include mq(laptop) {
 	// 	padding: 53px 60px 0;
