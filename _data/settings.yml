@@ -105,7 +105,7 @@ font_settings:
     small_size: 3.157rem
     medium_size: 3.157rem
     large_size: 3.157rem
-    weight: 200
+    weight: 900
     letter_spacing: 0
     line_height: 1.2
   h3:
