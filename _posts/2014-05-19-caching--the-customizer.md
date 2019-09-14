@@ -2,6 +2,7 @@
 layout: post
 title:  "Caching the WordPress Customizer"
 permalink: blog/caching-customizer-css
+skip_from_archives: true
 categories:
     - Customizer
     - WordPress

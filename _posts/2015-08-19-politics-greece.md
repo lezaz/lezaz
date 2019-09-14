@@ -2,6 +2,7 @@
 layout: post
 title:  "Greece the EU and a couple of personal points"
 permalink: blog/greek-politics-and-the-eu
+skip_from_archives: true
 ---
 
 A lot has been said and written about Greece and the situation here these past few months... This is just my own, personal view (however limited that may be).  

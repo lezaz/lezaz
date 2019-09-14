@@ -2,6 +2,7 @@
 layout: post
 title:  "Writing dynamic CSS to file"
 permalink: blog/avoid-dynamic-css-in-head
+skip_from_archives: true
 categories:
     - PHP
     - WordPress

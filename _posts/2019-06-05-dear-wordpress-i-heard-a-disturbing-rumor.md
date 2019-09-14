@@ -2,6 +2,7 @@
 layout: post
 title: "Dear WordPress: I heard a disturbing rumor"
 permalink: "wordpress/2019/06/05/dear-wordpress-i-heard-a-disturbing-rumor"
+skip_from_archives: true
 categories:
   - WordPress
 ---
