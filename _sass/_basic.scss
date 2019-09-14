@@ -209,7 +209,7 @@ a {
 
 	&:hover,
 	&:focus {
-		outline: 1px solid;
+		border-bottom-width: 3px;
 	}
 	&:focus,
 	&:active {

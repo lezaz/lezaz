@@ -82,9 +82,9 @@ font_settings:
     weight: 900
     letter_spacing: 0
   site_tagline:
-    small_size: 1rem
-    medium_size: 1.2rem
-    large_size: 1.4rem
+    small_size: .8rem
+    medium_size: 1rem
+    large_size: 1.2rem
     weight: 100
     letter_spacing: 0
     line_height: 1.5
@@ -100,14 +100,14 @@ font_settings:
     large_size: 4.209rem
     weight: 900
     letter_spacing: 0
-    line_height: 1.2
+    line_height: 1.5
   h2:
     small_size: 3.157rem
     medium_size: 3.157rem
     large_size: 3.157rem
     weight: 900
     letter_spacing: 0
-    line_height: 1.2
+    line_height: 1.5
   h3:
     small_size: 2.369rem
     medium_size: 2.369rem
