@@ -1,7 +1,7 @@
 ---
 title: About Ari
 subtitle: 
-description: A stunning personal blog Jekyll theme with an image-focused design.
+description: WordPress Developer, Accessibility & Sustainability evangelist, Human
 featured_image: /images/aristath.jpg
 ---
 
