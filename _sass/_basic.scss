@@ -1,12 +1,3 @@
-// - - - - - - - - - - - - - - - - - -
-
-// Basics
-
-// - - - - - - - - - - - - - - - - - -
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Basics
-
 :root {
 	font-size: calc(12px + .9vw);
 }
@@ -24,10 +15,6 @@ body {
 	line-height: 1;
 	color: $text-medium-color;
 }
-
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Typography
 
 h1,
 h2,
@@ -52,6 +39,7 @@ h6 {
 			outline: none;
 			border-bottom-color: currentColor;
 		}
+
 		&:focus,
 		&:active {
 			box-shadow: 0 .075em;
@@ -262,11 +250,6 @@ a {
 	letter-spacing: $button-spacing;
 	cursor: pointer;
 
-	// @include mq(tabletp) {
-	// 	padding: 11px 20px 12px;
-	// 	font-size: 1rem;
-	// }
-
 	&:hover {
 		background: adjust-hue($accent-color, 15%);
 		border-color: adjust-hue($accent-color, 15%);
@@ -301,11 +284,6 @@ a {
 .button--large {
 	padding: 1rem 2rem;
 	font-size: 1.2rem;
-
-	// @include mq(tabletp) {
-	// 	padding: 19px 2.5rem 20px;
-	// 	font-size: 17px;
-	// }
 }
 
 .button--light {
@@ -349,10 +327,6 @@ hr {
 	color: $background-color;
 }
 
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Page loading
-
 .page-loader {
 	display: none;
 }
@@ -360,54 +334,6 @@ hr {
 .page {
 	@include transition(all 0.4s ease-in-out);
 }
-
-// body.loading {
-
-// 	.loader {
-// 		opacity: 1;
-// 		visibility: visible;
-// 		@include transition(all 0.4s ease-in-out 1s);
-// 	}
-
-// 	.page {
-// 		opacity: 0;
-// 		visibility: hidden;
-// 		@include transition(all 0.4s ease-in-out);
-// 	}
-
-// 	.footer {
-// 		opacity: 0;
-// 		visibility: hidden;
-// 		@include transition(all 0.4s ease-in-out);
-// 	}
-// }
-
-// .loader {
-// 	position: fixed;
-// 	top: 50%;
-// 	left: 50%;
-// 	@include translate(-50%,-50%);
-// 	width: 60px;
-// 	height: 1rem;
-
-// 	opacity: 0;
-// 	visibility: hidden;
-// 	@include transition(all 0.2s ease-in-out);
-
-// 	@include mq(tabletl) {
-// 		left: 65%;
-// 	}
-
-// 	@include mq(desktop) {
-// 		left: 62.5%;
-// 	}
-
-// 	svg {
-// 		width: 100%;
-// 		height: 100%;
-// 		fill: rgba($text-dark-color,0.2);
-// 	}
-// }
 
 .page,
 .page__content {
@@ -426,10 +352,6 @@ hr {
 		padding-left: 20rem;
 	}
 }
-
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Page sections
 
 .featured-image {
 	position: relative;
@@ -454,18 +376,6 @@ hr {
 
 section {
 	margin-top: 2.5rem;
-
-	// @include mq(tabletp) {
-	// 	margin-top: 50px;
-	// }
-
-	// @include mq(tabletl) {
-	// 	margin-top: 60px;
-	// }
-
-	// @include mq(laptop) {
-	// 	margin-top: 80px;
-	// }
 }
 
 .wrap {

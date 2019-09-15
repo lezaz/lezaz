@@ -1,25 +1,7 @@
-// - - - - - - - - - - - - - - - - - -
-
-// Gallery
-
-// - - - - - - - - - - - - - - - - - -
-
 .gallery {
 	visibility: hidden;
 	position: relative;
 	margin: 1rem auto;
-
-	// @include mq(tabletp) {
-	// 	margin: 30px auto;
-	// }
-
-	// @include mq(tabletl) {
-
-	// }
-
-	// @include mq(laptop) {
-	// 	margin: 40px auto;
-	// }
 
 	&:first-child {
 		margin-top: 0;
@@ -38,28 +20,18 @@
 	}
 }
 
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Carousel
-
 .gallery--carousel {
 
-	.gallery__wrap {
+	.gallery__wrap {}
 
-	}
-	
-	.gallery__item {
-
-	}
+	.gallery__item {}
 
 	.gallery__item__link {
 		display: block;
 		pointer-events: none;
 	}
 
-	.gallery__item__image {
-
-	}
+	.gallery__item__image {}
 
 	.owl-nav {
 		display: none;
@@ -88,17 +60,13 @@
 	}
 }
 
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid
-
 .gallery--grid {
 
 	.gallery__wrap {
 		margin-left: -$grid-spacing/2;
 		margin-right: -$grid-spacing/2;
 	}
-	
+
 	.gallery__item {
 		float: left;
 		width: 50%;

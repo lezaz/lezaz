@@ -88,15 +88,6 @@
 	color: $text-dark-color;
 	@include transition(all 0.15s ease-in-out);
 
-	// @include mq(tabletp) {
-	// 	padding: 15px 18px;
-	// 	font-size: $p-medium;
-	// }
-
-	// @include mq(laptop) {
-	// 	font-size: $p-large;
-	// }
-
 	&:focus {
 		outline: none;
 		border-color: $accent-color;
@@ -105,19 +96,18 @@
 
 ::-webkit-input-placeholder {
 	opacity: .7;
-	// color: lighten($text-light-color,15%);
 }
+
 ::-moz-placeholder {
 	opacity: .7;
-	// color: lighten($text-light-color,15%);
 }
+
 :-ms-input-placeholder {
 	opacity: .7;
-	// color: lighten($text-light-color,15%);
 }
+
 :-moz-placeholder {
 	opacity: .7;
-	// color: lighten($text-light-color,15%);
 }
 
 .contact-form__textarea {

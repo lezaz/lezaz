@@ -1,20 +1,6 @@
-// - - - - - - - - - - - - - - - - - -
-
-// Header + menu
-
-// - - - - - - - - - - - - - - - - - -
-
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Header
-
 .header {
 	background: #000;
 	padding: 2rem 1rem;
-
-	// @include mq(tabletp) {
-	// 	padding: 80px 40px;
-	// }
 
 	@include mq(tabletl) {
 		position: fixed;
@@ -68,8 +54,6 @@
 	background: #000;
 
 	@include mq(tabletl) {
-		background: -moz-linear-gradient(top, rgba($overlay-background-color, 0) 0%, rgba($overlay-background-color, 0.01) 1%, rgba($overlay-background-color, $overlay-opacity) 70%, rgba($overlay-background-color, $overlay-opacity) 100%);
-		background: -webkit-linear-gradient(top, rgba($overlay-background-color, 0) 0%, rgba($overlay-background-color, 0.01) 1%, rgba($overlay-background-color, $overlay-opacity) 70%, rgba($overlay-background-color, $overlay-opacity) 100%);
 		background: linear-gradient(to bottom, rgba($overlay-background-color, 0) 0%, rgba($overlay-background-color, 0.01) 1%, rgba($overlay-background-color, $overlay-opacity) 70%, rgba($overlay-background-color, $overlay-opacity) 100%);
 	}
 }
@@ -131,14 +115,6 @@
 	&:hover {
 		color: $overlay-text-color;
 	}
-
-	// @include mq(tabletp) {
-	// 	font-size: $sitetitle-medium;
-	// }
-
-	// @include mq(laptop) {
-	// 	font-size: $sitetitle-large;
-	// }
 }
 
 .header__tagline {
@@ -149,19 +125,7 @@
 	letter-spacing: $sitetagline-spacing;
 	line-height: $sitetagline-lineheight;
 	color: rgba($overlay-text-color, 0.7);
-
-	// @include mq(tabletp) {
-	// 	font-size: $sitetagline-medium;
-	// }
-
-	// @include mq(laptop) {
-	// 	font-size: $sitetagline-large;
-	// }
 }
-
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu
 
 .menu {
 
@@ -296,10 +260,6 @@
 	margin: 0 auto;
 	padding: 2.5rem;
 
-	// @include mq(tabletp) {
-	// 	padding: 30px 40px;
-	// }
-
 	@include mq(tabletl) {
 		margin: 0;
 		padding: 0;
@@ -343,10 +303,6 @@
 		font-size: 15px;
 	}
 }
-
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Socials
 
 .header .socials {
 	padding: 12px 20px;
