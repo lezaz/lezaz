@@ -1,5 +1,5 @@
 ---
-title: About Ari
+title: About Me
 subtitle: 
 description: WordPress Developer, Accessibility & Sustainability evangelist, Human
 featured_image: /images/aristath.jpg
