@@ -11,7 +11,8 @@
 	font-size: calc(12px + .9vw);
 }
 
-html, body {
+html,
+body {
 	height: 100%;
 }
 
@@ -28,7 +29,12 @@ body {
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Typography
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: $title-font;
 	color: $text-dark-color;
 	font-weight: 600;
@@ -36,9 +42,25 @@ h1, h2, h3, h4, h5, h6 {
 	&:first-child {
 		margin-top: 0;
 	}
+
+	a {
+		border-bottom: .1em solid transparent;
+
+		&:hover,
+		&:focus,
+		&:active {
+			outline: none;
+			border-bottom-color: currentColor;
+		}
+		&:focus,
+		&:active {
+			box-shadow: 0 .075em;
+		}
+	}
 }
 
-h1, .h1 {
+h1,
+.h1 {
 	font-size: $h1-small;
 	font-weight: $h1-weight;
 	line-height: $h1-lineheight;
@@ -57,7 +79,8 @@ h1, .h1 {
 	}
 }
 
-h2, .h2 {
+h2,
+.h2 {
 	margin-top: 2.5rem;
 	font-size: $h2-small;
 	font-weight: $h2-weight;
@@ -77,7 +100,8 @@ h2, .h2 {
 	}
 }
 
-h3, .h3 {
+h3,
+.h3 {
 	margin-top: 2.5rem;
 	font-size: $h3-small;
 	font-weight: $h3-weight;
@@ -93,7 +117,8 @@ h3, .h3 {
 	}
 }
 
-h4, .h4 {
+h4,
+.h4 {
 	margin-top: 1.5rem;
 	font-size: $h4-small;
 	font-weight: $h4-weight;
@@ -109,7 +134,8 @@ h4, .h4 {
 	}
 }
 
-h5, .h5 {
+h5,
+.h5 {
 	margin-top: 1rem;
 	font-size: $h5-small;
 	font-weight: $h5-weight;
@@ -125,7 +151,8 @@ h5, .h5 {
 	}
 }
 
-h6, .h6 {
+h6,
+.h6 {
 	margin-top: 1rem;
 	font-size: $h6-small;
 	font-weight: $h6-weight;
@@ -141,7 +168,9 @@ h6, .h6 {
 	}
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
 	margin-top: 1rem;
 	font-size: $p-small;
 	font-weight: $p-weight;
@@ -165,7 +194,8 @@ p, ul, ol {
 	}
 }
 
-ul, ol {
+ul,
+ol {
 	list-style-position: inside;
 }
 
@@ -211,6 +241,7 @@ a {
 	&:focus {
 		border-bottom-width: 3px;
 	}
+
 	&:focus,
 	&:active {
 		outline: 2px solid;
@@ -237,8 +268,8 @@ a {
 	// }
 
 	&:hover {
-		background: adjust-hue($accent-color,15%);
-		border-color: adjust-hue($accent-color,15%);
+		background: adjust-hue($accent-color, 15%);
+		border-color: adjust-hue($accent-color, 15%);
 		color: $background-color;
 	}
 
@@ -302,8 +333,15 @@ hr {
 	background: $border-color;
 }
 
-::selection 	 { background: $accent-color; color: $background-color; }
-::-moz-selection { background: $accent-color; color: $background-color; }
+::selection {
+	background: $accent-color;
+	color: $background-color;
+}
+
+::-moz-selection {
+	background: $accent-color;
+	color: $background-color;
+}
 
 
 
@@ -437,7 +475,5 @@ section {
 		padding: 0;
 	}
 
-	@include mq(laptop) {
-		
-	}
+	@include mq(laptop) {}
 }
