@@ -20,7 +20,8 @@ Since this site is hosted on github pages there is already a repository. And sin
 ```
 comments_id: 5
 ```
-Of course `5` in the above example is just the ID of the issue in the repository and each tickets has its own.
+Of course `5` in the above example is just the ID of the issue in the repository and each tickets has its own.  
+When someone wants to add a comment on a post, they click the link and they get taken to the corresponding issue on the repository where they can leave their comment.  As soon as a comment is posted it appears on the page.
 
 ## The Code
 
@@ -28,7 +29,7 @@ I created a new `comments.html` file in my `_includes` folder, and wrote this in
 
 ```html
 <script>
-const GH_API_URL = 'https://api.github.com/repos/aristath/aristath.github.com/issues/{{ page.comments_id }}/comments?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}';
+const GH_API_URL = 'https://api.github.com/repos/aristath/aristath.github.com/issues/{{ page.comments_id }}/comments';
 
 let request = new XMLHttpRequest();
 request.open( 'GET', GH_API_URL, true );
@@ -90,6 +91,19 @@ request.send();
 	<p id="no-comments-found">No comments found for this article. Comments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for comments.</p>
 	<p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/aristath/aristath.github.com/issues/{{ page.comments_id }}">this ticket</a>. Comments appear on this page insteantly.</p>
 </div>
+```
+
+Depending on the number of requests you have on your site you may want to add thes at the end of the URL in the `GH_API_URL` constant in the above script:
+```
+?client_id=MY_CLIENT_ID&client_secret=MY_CLIENT_SECRET
+```
+To get the client-ID and client-secret you'll have to create a new application from your [GitHub Profile > Developer Settings > OAuth Apps](https://github.com/settings/applications/new). Don't worry, it only requires an application name and a URL. You can use the same URL for the callback, so it only takes 10-20 seconds to create your app and get the keys.
+
+That file is then loaded right after the `{{ page.content }}` in my layout for posts using the following code:
+```
+{% if page.comments_id %}
+	{% include comments.html %}
+{% endif %}
 ```
 
 The logic is simple: We make a request to the GitHub API, we get the comments from the issue and render them. The code may seem a bit long but that's only because I'm using Vanilla JS instead of libraries like jQuery, so elements have to be created individually and then added to the DOM. The above code will get the user avatar, create a link to the user's profile, add the comment, add a link to the comment, the date and everything a comment usually has.
