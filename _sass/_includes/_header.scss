@@ -86,6 +86,22 @@
 	@include mq(laptop) {
 		padding: 2rem;
 	}
+
+	a {
+		border-bottom: .05em solid transparent;
+
+		&:hover,
+		&:focus,
+		&:active {
+			outline: none;
+			border-bottom-color: currentColor;
+		}
+
+		&:focus,
+		&:active {
+			box-shadow: 0 .075em;
+		}
+	}
 }
 
 .header__logo {
@@ -148,7 +164,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu
 
 .menu {
-	
+
 	@include mq(tabletl) {
 		margin-top: 1.2rem;
 	}
@@ -178,7 +194,7 @@
 	&:focus {
 		border-color: #fff;
 	}
-	
+
 	@include mq(tabletl) {
 		display: none;
 	}
@@ -191,7 +207,9 @@
 	height: 20px;
 	margin-left: 8px;
 
-	span, span:before, span:after {
+	span,
+	span:before,
+	span:after {
 		content: '';
 		position: absolute;
 		top: 8px;
@@ -213,25 +231,28 @@
 
 .menu--open .page {
 	display: none;
+
 	@include mq(tabletl) {
 		display: block;
 	}
 }
+
 .menu--open .menu__toggle__icon {
 
-	span:before, span:after {
+	span:before,
+	span:after {
 		background: $overlay-text-color !important;
 	}
-		
+
 	span {
 		background-color: transparent !important;
 	}
-	
+
 	span:before,
 	span:after {
 		top: 0;
 	}
-	
+
 	span:before {
 		@include rotate(45);
 	}
@@ -248,7 +269,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba($overlay-background-color,0.95);
+	background: rgba($overlay-background-color, 0.95);
 	overflow: auto;
 
 	visibility: hidden;
@@ -285,9 +306,7 @@
 	}
 }
 
-.menu__list__item {
-
-}
+.menu__list__item {}
 
 .menu__list__item__link {
 	font-size: $menu-small;
@@ -307,7 +326,7 @@
 	@include mq(laptop) {
 		font-size: $menu-large;
 	}
-	
+
 	&.active-link {
 		color: $overlay-text-color;
 	}
