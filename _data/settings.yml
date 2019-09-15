@@ -11,12 +11,8 @@ menu_settings:
   menu_items:
     - title: 'Posts'
       url: '/'
-    # - title: 'Projects'
-    #   url: '/projects/'
     - title: 'About'
       url: '/about'
-    # - title: 'Contact'
-    #   url: '/contact'
 
 social_settings:
   facebook_url: ''
