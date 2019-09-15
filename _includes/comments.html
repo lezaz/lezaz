@@ -10,6 +10,10 @@ request.onload = function() {
 		for ( var i = 0; i < response.length; i++ ) {
 			document.getElementById( 'gh-comments-list' ).appendChild( createCommentEl( response[ i ] ) );
 		}
+
+		if ( 0 === response.length ) {
+			document.getElementById( 'no-comments-found' ).style.display = 'block';
+		}
 	} else {
 		console.error( this );
 	}
@@ -54,5 +58,6 @@ request.send();
 <div class="github-comments">
 	<h2>Comments</h2>
 	<ul id="gh-comments-list"></ul>
-	<p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/aristath/aristath.github.com/issues/{{ page.comments_id }}">this ticket</a> for your comments to appear on this page.</p>
+	<p id="no-comments-found">No comments found for this article. Comments posted before 2019-19-15 are no longer available due to a system migration since I no longer use Disqus for comments.</p>
+	<p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/aristath/aristath.github.com/issues/{{ page.comments_id }}">this ticket</a>. Comments appear on this page insteantly.</p>
 </div>
