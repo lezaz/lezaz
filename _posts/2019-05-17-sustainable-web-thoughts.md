@@ -4,6 +4,7 @@ title: "Thoughts on a Sustainable Web"
 permalink: "general/2019/05/17/sustainable-web-thoughts"
 categories:
   - General
+comments_id: 2
 ---
 
 Sustainability in the web is something everyone should take more seriously. [In 2015 the carbon footprint of the web eclipsed global air travel](https://www.theguardian.com/environment/2015/sep/25/server-data-centre-emissions-air-travel-web-google-facebook-greenhouse-gas). Surprised? You shouldn't be...  
