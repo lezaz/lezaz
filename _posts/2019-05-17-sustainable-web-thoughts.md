@@ -37,7 +37,7 @@ If 6 months ago on my old laptop I was trying to get to a page on a rainy day an
 Seriously, that's not a far-fetched example. 2MB for CSS + JS is pretty normal these days. And 10MB of images is not that much either if they are not optimized and there's a featured image in an article, 4 related posts, 3 ads, a header image, avatars for authors, social-media avatars in a facebook widget in the sidebar and so on.  
 And that's where the "lazyness" and "visual greed" I mentioned earlier come into play.  
 
-## Designer's/Client's Visual Greed and Developer's Lazyness
+## Designer's / Client's Visual Greed and Developer's Lazyness
 
 You want your site to have a slider/carouser to show your featured products, you want micro-interactions, you want to have images appear crystal-clear on a device that has a 3000px screen-width and a 3 times the normal pixel density. You want to look cool and have all the bells and whistles.  
 So what do you do?  
