@@ -99,12 +99,7 @@ Depending on the number of requests you have on your site you may want to add th
 ```
 To get the client-ID and client-secret you'll have to create a new application from your [GitHub Profile > Developer Settings > OAuth Apps](https://github.com/settings/applications/new). Don't worry, it only requires an application name and a URL. You can use the same URL for the callback, so it only takes 10-20 seconds to create your app and get the keys.
 
-That file is then loaded right after the `{{ page.content }}` in my layout for posts using the following code:
-```
-{% if page.comments_id %}
-	{% include comments.html %}
-{% endif %}
-```
+You can see how that file is then loaded on the template for posts [here](https://github.com/aristath/aristath.github.com/blob/f1b80c1202ed9edd3d5b8b9ba7cf15f347d4bfc6/_layouts/post.html#L22-L24).
 
 The logic is simple: We make a request to the GitHub API, we get the comments from the issue and render them. The code may seem a bit long but that's only because I'm using Vanilla JS instead of libraries like jQuery, so elements have to be created individually and then added to the DOM. The above code will get the user avatar, create a link to the user's profile, add the comment, add a link to the comment, the date and everything a comment usually has.
 
