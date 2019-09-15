@@ -3,7 +3,7 @@ layout: page
 title: Donate
 ---
 
-If you find what you see on this site useful and you use it, consider making a donation.
+If you like what you read and you find it useful, consider making a donation.
 It's not hard, just click the big button below.
 
 <br>
