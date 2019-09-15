@@ -50,4 +50,4 @@ On `:hover`, `:focus` and `:active` I'm adding a `box-shadow` with a value `0 .1
 Finally on `:focus` and `:active` I'm adding an `outline` of `.1em solid`. This way keyboard navigation is easier because it's always clear where users using a keyboard instead of a mouse are.
 
 -----------------
-There are many ways you can handle styling links. As long as they are styled differently, are visible, and theis states are sufficiently different you'll be OK. But **do not, under any circumstances** make them the same as your normal text. Doing is just annoying and breaks the way we expect things to work. Not to mention it's just an inconsiderate dick move for accessibility. You're breaking the web.
+There are many ways you can handle styling links. As long as they are styled differently, are visible, and theis states are sufficiently different you'll be OK. But **do not, under any circumstances** make them the same as your normal text. Doing so is just annoying and breaks the way we expect things to work. Not to mention it's just an inconsiderate dick move for accessibility. You're breaking the web.
