@@ -271,6 +271,12 @@ a {
 		background: adjust-hue($accent-color, 15%);
 		border-color: adjust-hue($accent-color, 15%);
 		color: $background-color;
+		box-shadow: 0 .25em $accent-color;
+	}
+
+	&:active,
+	&:focus {
+		box-shadow: .25em .25em $accent-color;
 	}
 
 	svg {
