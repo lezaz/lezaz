@@ -1,6 +1,11 @@
 .header {
 	background: #000;
 	padding: 2rem 1rem;
+	color: var(--header-color);
+
+	a {
+		color: var(--header-color);
+	}
 
 	@include mq(tabletl) {
 		position: fixed;
@@ -54,7 +59,7 @@
 	background: #000;
 
 	@include mq(tabletl) {
-		background: linear-gradient(to bottom, rgba($overlay-background-color, 0) 0%, rgba($overlay-background-color, 0.01) 1%, rgba($overlay-background-color, $overlay-opacity) 70%, rgba($overlay-background-color, $overlay-opacity) 100%);
+		background: linear-gradient(to bottom, rgba(#000, 0) 0%, rgba(#000, 0.01) 1%, rgba(#000, 0.7) 70%, rgba(#000, 0.7) 100%);
 	}
 }
 
@@ -90,7 +95,6 @@
 
 .header__logo {
 	display: block;
-	width: $logo-width;
 	max-width: 80%;
 
 	@include mq(tabletp) {
@@ -105,26 +109,22 @@
 }
 
 .header__title {
-	font-family: $title-font;
-	font-size: $sitetitle-small;
-	font-weight: $sitetitle-weight;
-	letter-spacing: $sitetitle-spacing;
+	font-family: var(--font-family);
+	font-size: var(--sitetitle-size);
+	font-weight: var(--sitetitle-weight);
 	line-height: 1;
-	color: $overlay-text-color;
+	color: var(--header-color);
 
 	&:hover {
-		color: $overlay-text-color;
+		color: var(--header-color);
 	}
 }
 
 .header__tagline {
 	margin-top: 10px;
-	font-family: $body-font;
-	font-size: $sitetagline-small;
-	font-weight: $sitetagline-weight;
-	letter-spacing: $sitetagline-spacing;
-	line-height: $sitetagline-lineheight;
-	color: rgba($overlay-text-color, 0.7);
+	font-family: var(--font-family);
+	font-size: var(--tagline-size);
+	font-weight: var(--tagline-weight);
 }
 
 .menu {
@@ -181,7 +181,7 @@
 		width: 100%;
 		height: 3px;
 		@include transition(all 0.1s);
-		background: rgba($overlay-text-color, 0.7);
+		background: var(--header-color);
 	}
 
 	span:before {
@@ -205,7 +205,7 @@
 
 	span:before,
 	span:after {
-		background: $overlay-text-color !important;
+		background: var(--header-color) !important;
 	}
 
 	span {
@@ -233,7 +233,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba($overlay-background-color, 0.95);
+	background: rgba(#000, 0.95);
 	overflow: auto;
 
 	visibility: hidden;
@@ -269,26 +269,21 @@
 .menu__list__item {}
 
 .menu__list__item__link {
-	font-size: $menu-small;
-	font-weight: $menu-weight;
-	color: rgba($overlay-text-color, 0.7);
+	font-size: var(--menu-size);
+	font-weight: var(--menu-weight);
 	padding: 1rem 0;
+	opacity: .7;
 
 	&:hover {
-		color: $overlay-text-color;
+		opacity: 1;
 	}
 
 	@include mq(tabletl) {
 		padding: 0;
-		font-size: $menu-medium;
-	}
-
-	@include mq(laptop) {
-		font-size: $menu-large;
 	}
 
 	&.active-link {
-		color: $overlay-text-color;
+		color: var(--header-color);
 	}
 }
 
@@ -321,14 +316,14 @@
 	}
 
 	.socials__item__link {
-		background: rgba($overlay-text-color, 0.7);
-		color: $overlay-background-color;
+		background: var(--header-color);
+		color: #000;
 
 		&:hover,
 		&:focus,
 		&:active {
-			background: $overlay-text-color;
-			color: $overlay-background-color;
+			background: var(--header-color);
+			color: #000;
 		}
 	}
 }

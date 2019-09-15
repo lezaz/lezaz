@@ -9,14 +9,14 @@
 .footer__copyright {
 	display: block;
 	font-size: .8rem;
-	color: $text-light-color;
+	opacity: .8;
 
 	a {
-		color: $text-light-color;
-		font-weight: $regular-weight;
+		opacity: .8;
+		font-weight: 400;
 
 		&:hover {
-			color: $text-medium-color;
+			opacity: 1;
 		}
 	}
 }
