@@ -19,6 +19,9 @@ layout: default
 
 		{{ page.content }}
 
+		{% if page.comments_id %}
+			{% include comments.html %}
+		{% endif %}
 	</div>
 
 </section>

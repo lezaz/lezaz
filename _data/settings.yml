@@ -160,3 +160,6 @@ advanced_settings:
   custom_styles: ""
   header_js: ""
   footer_js: ""
+gh_api:
+  ci: f9afa028440c75779c6c
+  cs: 24ba96b011dc6ec70741414e14c8f317b0553034

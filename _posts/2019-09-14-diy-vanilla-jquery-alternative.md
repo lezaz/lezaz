@@ -3,6 +3,7 @@ layout: post
 title: "Migrating from jQuery to vanilla JS"
 categories:
   - JavaScript
+comments_id: 1
 ---
 
 jQuery has been an easy way to get things done in JavaScript for years. It cuts down development time and allows us to prototype websites a lot faster. It's been around for years, and as a WordPress developer I've been using it for a long, long time. I stopped using it a while back and I am now trying to build things using "Vanilla" JS (which by the way is a strange name if you ask me... Vanilla is not "flavorless", it's not "plain". Vanilla is a great and intense flavor).  
