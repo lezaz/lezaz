@@ -4,6 +4,7 @@ title: "Fluid Typography with CSS Variables"
 permalink: "blog/fluid-typography-css-vars"
 categories:
   - CSS
+comments_id: 7
 ---
 
 By "Fluid Typography" in this article I'm referring to typography that scales depending on the screen size.  

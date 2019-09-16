@@ -4,6 +4,7 @@ title: "Styling Links"
 permalink: "blog/styling-links"
 categories:
   - CSS
+comments_id: 6
 ---
 
 Links are a part of any page. They have been a part of the web from its conception, and are the main way we navigate on our everyday lives. They're everywhere! So it stands to reason you should style them appropriately.
