@@ -6,10 +6,15 @@ categories:
 comments_id: 1
 ---
 
-jQuery has been an easy way to get things done in JavaScript for years. It cuts down development time and allows us to prototype websites a lot faster. It's been around for years, and as a WordPress developer I've been using it for a long, long time. I stopped using it a while back and I am now trying to build things using "Vanilla" JS (which by the way is a strange name if you ask me... Vanilla is not "flavorless", it's not "plain". Vanilla is a great and intense flavor).  
+jQuery has been an easy way to get things done in JavaScript for years. It cuts down development time and allows us to prototype websites a lot faster. It's been around for years, and as a WordPress developer I've been using it for a long, long time. 
+
+I stopped using it a while back and I am now trying to build things using "Vanilla" JS (which by the way is a strange name if you ask me... Vanilla is not "flavorless", it's not "plain". Vanilla is a great and intense flavor).  
+
 Recently I wanted to migrate some scripts from jQuery to Vanilla JS. It can sometimes be a daunting task and if the script you want to migrate is big, it can be a time-consuming process. So I started investigating ways to make the process easier and cut down the time it took me to get things done.  
+
 I ended up writing a jQuery drop-in replacement and I wanted to release it as a new script that people can use if they want to move away from jQuery and to something lighter without all the technical debt. I created a new repository on Github, pushed my code, created a new site for it, and then... I deleted everything.  
 The world doesn't need yet another jQuery alternative. What we really need is developers who don't rely on heavy scripts to do simple things.  
+
 Instead of creating a repository with a new library I'm going to show you how you can do it yourself. I think this will be more educational and you can use the method described here to add your own methods and learn to do things the "right" way.
 
 So here's what this article is going to be about: Creating your own jQuery drop-in replacement, and hopefully in the process learn something.
