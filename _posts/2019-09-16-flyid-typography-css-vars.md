@@ -64,7 +64,7 @@ In case you're a WordPress Theme Developer the above method can be particularly 
 * A slider control for the base font-size
 * A slider control for the typography-ratio.
 
-If users set the typography-ratio to `0` then their sites will use a static font-size, otherwise the values they define in these 2 controls will change the sizes of everything on their site.  
+If users set the typography-ratio to `0` then their sites will use a static font-size, otherwise the values they define in these 2 controls will change the sizes of everything on their site. Take a lookat the [Gridd](https://wordpress.org/themes/gridd) for an example of how this can be done.
 
 ## Working with the above approach on a site
 

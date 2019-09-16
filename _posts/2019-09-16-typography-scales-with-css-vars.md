@@ -86,3 +86,7 @@ You can also combine this with a [Fluid Typography](/blog-fluid-typography-css-v
 ## Alternative solutions
 
 If you don't want to use css-variables, then you can hardcode these values. To get the values without doing all the math you can use a tool like [Visual Typography Scales](https://type-scale.com/), and then define your values using `rem` units.
+
+## If you're building WordPress Themes
+
+The method described above is excellent for use in WordPress themes. Themes don't need to include a separate control for H1, H2, H3 etc sizes. All you need is a slider control to let users define the scale. Take a lookat the [Gridd](https://wordpress.org/themes/gridd) for an example.
