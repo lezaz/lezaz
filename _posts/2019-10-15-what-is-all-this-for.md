@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Hidden Color Functions in WordPress"
+title: "What is the meaning of all this?"
 permalink: "blog/personal/what-is-all-this-for"
 categories:
   - JavaScript
