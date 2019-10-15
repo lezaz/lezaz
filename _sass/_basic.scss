@@ -233,9 +233,7 @@ button {
 
 hr {
 	margin: 2.5rem 0;
-	border: 0;
-	height: 2px;
-	opacity: .5;
+	background: currentColor;
 }
 
 ::selection {
