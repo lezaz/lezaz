@@ -2,6 +2,7 @@
 layout: post
 title: "The Gutenberg Layout Problem"
 permalink: "blog/the-gutenberg-layout-problem"
+skip_from_archives: true
 categories:
   - WordPress
 comments_id: 11
