@@ -10,7 +10,7 @@ comments_id: 11
 The Gutenberg editor is amazing. It allows for flexibility that was previously unheard of without a dedicated page builder. And though everyone kept saying "_Gutenberg is not a page-builder_", I think there's no denying it. **It is a page-builder**. You can call it an immersive editing experience for all I care, but the truth is it's a page-builder.
 
 With all the good things it brought, there were (and still are) some difficulties, mostly regarding the way we can style things - both in the editor and the frontend. This post is about one of the many solutions that you can implement, depending on your layouts.  
-If your theme doesn't have a sidebar and instead the content is the whole viewport-width, then things are pretty simple. In the [Gridd](https://wplemon.com/gridd) however **there is no standard layout**. Users build their own grid. A site may be just a logo on the top and then the content, or it can have 4 widget-areas on the sides. And therein lies the problem:  
+If your theme doesn't have a sidebar and instead the content is the whole viewport-width, then things are pretty simple. In the [Gridd theme](https://wplemon.com/gridd) however **there is no standard layout**. Users build their own grid. A site may be just a logo on the top and then the content, or it can have 4 widget-areas on the sides. And therein lies the problem:  
 How can we account for ALL cases?
 
 ## What Gutenberg generates
@@ -67,7 +67,7 @@ What we _need_ to accomplish:
 * Elements with the `alignfull` class should be 100% of their container.
 * We also want a padding on 1em on the left & right of our elements, otherwise on mobile they're going to stick to the edges of the window.
 
-Let's start by adding our defining some variables, and add the padding to our container:
+Let's start by defining some variables, and add the padding to our container:
 
 ```css
 .my-container {
