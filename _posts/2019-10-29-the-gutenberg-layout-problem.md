@@ -2,7 +2,6 @@
 layout: post
 title: "The Gutenberg Layout Problem"
 permalink: "blog/the-gutenberg-layout-problem"
-skip_from_archives: true
 categories:
   - WordPress
 comments_id: 11
@@ -146,8 +145,6 @@ The best solution I could come up with so far is this:
 ```
 
 The above snippet will add a left margin to elements that are floated to the left and a right margin to elements floated to the right, therefore displacing them visually and moving them to the place we need the to be. It's counter-intuitive and I absolutely hate it. It's an ugly hack that makes absolutely no sense. But it works (most of the time).
-
-In some cases you may need to also add something like this:
 
 ## Got a better idea?
 
