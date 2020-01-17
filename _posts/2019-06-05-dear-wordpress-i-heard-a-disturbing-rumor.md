@@ -31,7 +31,7 @@ But then something weird happened... I went to [WordCamp Greece 2019 in Athens](
 I knew that there was a chance WordCamp Europe 2020 would be in Greece. Or at least I knew that there were talks about it, and there was a formal submission.  
 So I asked "Is there a chance WCEU 2020 will be in Greece"?  
 The answer was no. And that was fine.  
-What isn't fine however is the why. Keep in mind that this is just something I was told and I don't know if it's actually true or false. I will treat this as a rumor and nothing more. I'm not going to name names, who said what etc, but in my opinion it's a disturbing rumor, one that I fear is true.
+What isn't fine however is the why. Keep in mind that this is just something I was told and I don't know if it's actually true or false. I will treat this as a rumor and nothing more. I'm not going to name names, who said what etc, but in my opinion it's a disturbing rumor, one that I fear is true. And to be clear, these rumors didn't reach my ears from a member of the organizing team directly so they can only be treated as hear-say and not reliable evidence.
 
 The rumour is this: _Greece is not hosting WCEU 2020 because in the local WordCamps so far, there is an imbalance regarding the male/female speakers ratio._
 
