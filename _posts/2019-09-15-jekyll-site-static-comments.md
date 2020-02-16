@@ -51,7 +51,7 @@ request.onload = function() {
 
 function createCommentEl( response ) {
 	let user = document.createElement( 'a' );
-	user.setAttribute( 'href', response.user.url );
+	user.setAttribute( 'href', response.user.url.replace( 'api.github.com/users', 'github.com' ) );
 	user.classList.add( 'user' );
 
 	let userAvatar = document.createElement( 'img' );
