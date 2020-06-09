@@ -19,5 +19,5 @@ Born in 1981 in Greece - where I still live, my extra skills include crochet, wo
 
 ---------
 
-You can find me on [GitHub](https://github.com/aristath) and [Twitter](https://twitter.org/aristath).  
+You can find me on [GitHub](https://github.com/aristath) and [Twitter](https://twitter.com/aristath).  
 If you're oldfashioned you can [send me an email](mailto:aristath@gmail.com) though I can't guarantee a prompt response, it's a mess and things tend to get lost there.
