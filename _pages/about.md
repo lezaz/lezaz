@@ -9,6 +9,37 @@ I've been building websites since the 90s and coding in WordPress since 2006. Ye
 
 **Passionate about Web Accessibility & Sustainability.**
 
+<br>
+<div class="contributions">
+	<p>My badges - See <a href="https://profiles.wordpress.org/aristath/" target="_blank" rel="nofollow">full profile on wordpress.org</a></p>
+	<ul role="main" style="display:grid;grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));list-style:none;grid-gap:2em;">
+		<li style="display:grid;grid-template-columns:2.5em 1fr;grid-gap:0.5em;align-items:center;">
+			<img alt="" src="/assets/badges/core-contrib.png" style="max-width:100%;height:auto;">
+			Core Contributor
+		</li>
+		<li style="display:grid;grid-template-columns:2.5em 1fr;grid-gap:0.5em;align-items:center;">
+			<img alt="" src="/assets/badges/core-team.png" style="max-width:100%;height:auto;">
+			Core Team
+		</li>
+		<li style="display:grid;grid-template-columns:2.5em 1fr;grid-gap:0.5em;align-items:center;">
+			<img alt="" src="/assets/badges/plugin-dev.png" style="max-width:100%;height:auto;">
+			Plugin Developer
+		</li>
+		<li style="display:grid;grid-template-columns:2.5em 1fr;grid-gap:0.5em;align-items:center;">
+			<img alt="" src="/assets/badges/theme-dev.png" style="max-width:100%;height:auto;">
+			Theme Developer
+		</li>
+		<li style="display:grid;grid-template-columns:2.5em 1fr;grid-gap:0.5em;align-items:center;">
+			<img alt="" src="/assets/badges/translation-contrib.png" style="max-width:100%;height:auto;">
+			Translation Contributor
+		</li>
+		<li style="display:grid;grid-template-columns:2.5em 1fr;grid-gap:0.5em;align-items:center;">
+			<img alt="" src="/assets/badges/translation-editor.png" style="max-width:100%;height:auto;">
+			Translation Editor
+		</li>
+	</ul>
+</div>
+
 ## Currently Working On:
 
 I work full-time at [ThemeFusion](https://theme-fusion.com/) where I help build the Avada theme.
