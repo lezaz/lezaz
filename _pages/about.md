@@ -22,6 +22,10 @@ I've been building websites since the 90s and coding in WordPress since 2006. Ye
 			Core Team
 		</li>
 		<li style="display:grid;grid-template-columns:2.5em 1fr;grid-gap:0.5em;align-items:center;">
+			<img alt="" src="/assets/badges/themes-team.png" style="max-width:100%;height:auto;">
+			Themes Team
+		</li>
+		<li style="display:grid;grid-template-columns:2.5em 1fr;grid-gap:0.5em;align-items:center;">
 			<img alt="" src="/assets/badges/plugin-dev.png" style="max-width:100%;height:auto;">
 			Plugin Developer
 		</li>
