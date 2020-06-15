@@ -54,6 +54,7 @@ I am a representative of the [WordPress Themes Team](https://make.wordpress.org/
 
 ## Previous Work:
 
+* **2020**: Part of the Themes Team, contributed to the twentytwenty WordPress Theme.
 * **2014 - 2020**: Created and maintained the [Kirki Customizer Framework](https://w.org/plugins/kirki) (open-source)
 * **2014 - 2016**: Created and maintained the Shoestrap Theme Framework & the Maera Framework (open-source)
 * **2013 - 2015**: Support Staff at [Incsub](https://incsub.com/) ([wpmudev](https://premium.wpmudev.org/))
