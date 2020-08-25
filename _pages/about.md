@@ -46,7 +46,7 @@ I've been building websites since the 90s and coding in WordPress since 2006. Ye
 
 ## Currently Working On:
 
-I work full-time at [ThemeFusion](https://theme-fusion.com/) where I help build the Avada theme.
+I work full-time at [Yoast](https://yoast.com/) as a sponsored WordPress Core Contributor.
 
 I am a representative of the [WordPress Themes Team](https://make.wordpress.org/themes/) and also maintain the [Gridd WordPress Theme](https://w.org/themes/gridd) and other open-source [wplemon](https://wplemon.com) projects.
 
@@ -55,6 +55,7 @@ I am a representative of the [WordPress Themes Team](https://make.wordpress.org/
 ## Previous Work:
 
 * **2020**: Part of the Themes Team, contributed to the twentytwenty WordPress Theme.
+* **2015 - 2020**: Senior Developer at [theme-fusion](https://theme-fusion.com/), working on the [Avada theme](https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226).
 * **2014 - 2020**: Created and maintained the [Kirki Customizer Framework](https://w.org/plugins/kirki) (open-source)
 * **2014 - 2016**: Created and maintained the Shoestrap Theme Framework & the Maera Framework (open-source)
 * **2013 - 2015**: Support Staff at [Incsub](https://incsub.com/) ([wpmudev](https://premium.wpmudev.org/))
