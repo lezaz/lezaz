@@ -11,7 +11,7 @@ I love WordPress, but I strongly believe there's a right tool for every job. Thi
 I write my posts using simple Markdown and it's just fast and convenient.  
 However, what I always found annoying is the lack of a comment system. Until now I was using [disqus](https://disqus.com/) for comments on this site, but I never really liked it. It was a last-resort solution. One I hated because Disqus loads a lot of assets and a lot of trackers.
 
-Those who know me personally, know that I am concerned with online privacy and web-sustainability. I don't even have analytics on my sites simply because I consider the policies of tech giants like Google abhorrent, and the fact that almost all sites load all these extra JS assets is insanely constly for the environment.
+Those who know me personally, know that I am concerned with online privacy and web-sustainability. I don't even have analytics on my sites simply because I consider the policies of tech giants like Google abhorrent, and the fact that almost all sites load all these extra JS assets is insanely costly for the environment.
 
 Disqus in particular was loading assets and trackers from Google, Facebook, Twitter and its own things. So I could no longer stand the thought of using Disqus, a custom solution had to be implemented.
 Today I finally managed to do that and implement my new comments system.
