@@ -29,7 +29,7 @@ I created a new `comments.html` file in my `_includes` folder, and wrote this in
 
 ```html
 <script>
-const GH_API_URL = 'https://api.github.com/repos/aristath/aristath.github.com/issues/{{ page.comments_id }}/comments';
+const GH_API_URL = 'https://api.github.com/repos/aristath/aristath.github.com/issues/{{ page.comments_id }}/comments?per_page=100';
 
 let request = new XMLHttpRequest();
 request.open( 'GET', GH_API_URL, true );
