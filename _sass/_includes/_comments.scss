@@ -5,9 +5,15 @@
     li {
         margin: 0;
         padding: 1.5em 0;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 2.5em 1fr;
         border-top: 1px solid #aaa;
+        
+        .comment-content,
+        .comment-content * {
+            word-break: normal !important;
+            overflow-wrap: break-word !important;
+        }
 
         >a.user {
             width: 2.5em;
