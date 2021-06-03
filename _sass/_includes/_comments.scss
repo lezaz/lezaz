@@ -9,6 +9,10 @@
         grid-template-columns: 2.5em 1fr;
         border-top: 1px solid #aaa;
         overflow-x: auto;
+        
+        .comment-content * {
+            margin-left: 0;
+        }
 
         >a.user {
             width: 2.5em;
