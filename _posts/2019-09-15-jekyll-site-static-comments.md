@@ -4,7 +4,7 @@ title: "A new comments system for my static Jekyll site"
 permalink: blog/static-site-comments-using-github-issues-api
 categories:
   - Jekyll
-comments_id: 5
+comments_id: 1
 ---
 
 I love WordPress, but I strongly believe there's a right tool for every job. This site is not a WordPress site. It's built on [Jekyll](https://jekyllrb.com/) and hosted on [Github Pages](https://pages.github.com/) for free.  
