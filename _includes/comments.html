@@ -1,6 +1,6 @@
 <script src="  https://unpkg.com/showdown/dist/showdown.min.js"></script>
 <script>
-const GH_API_URL = 'https://api.github.com/repos/lezaz/lezaz.github.io/issues/1/{{ page.comments_id }}/comments?per_page=100'; // ?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}
+const GH_API_URL = 'https://api.github.com/repos/lezaz/lezaz.github.io/issues/{{ page.comments_id }}/comments?per_page=100'; // ?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}
 
 let request = new XMLHttpRequest();
 request.open( 'GET', GH_API_URL, true );
@@ -65,5 +65,5 @@ request.send();
 	<h2>Comments</h2>
 	<ul id="gh-comments-list"></ul>
 	<p id="no-comments-found">No comments found for this article. Comments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for comments.</p>
-	<p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/lezaz/lezaz.github.com/issues/1/{{ page.comments_id }}">this ticket</a>. Comments appear on this page instantly.</p>
+	<p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/lezaz/lezaz.github.com/issues/{{ page.comments_id }}">this ticket</a>. Comments appear on this page instantly.</p>
 </div>
