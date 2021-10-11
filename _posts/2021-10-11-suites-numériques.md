@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "A new comments system for my static Jekyll site"
-permalink: blog/static-site-comments-using-github-issues-api
+title: "Cours de suites numériques"
+permalink: blog/suites-numériques
 categories:
-  - Jekyll
+  - Analyse1
 comments_id: 1
 ---
 ## Suites Numériques
